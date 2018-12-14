@@ -1,0 +1,34 @@
+    body {  
+        background-image: url(images/bg0.jpg) !important;  
+    }  
+      
+    h1 a{  
+        background: url(images/logo.png) no-repeat center center !important;  
+        width: 325px !important;  
+        height: 93px !important;  
+    }  
+      
+    #backtoblog {  
+        background-color: #666;  
+        box-shadow: 0 1px 3px #666;  
+        left: 0;  
+        margin: 0 !important;  
+        padding: 10px !important;  
+        position: fixed;  
+        text-align: left;  
+        text-shadow: 0 0 0 !important;  
+        top: 0;  
+        width: 100%;  
+    }  
+      
+    .login #backtoblog a {  
+        color: #FFFFFF !important;  
+    } 
+    .login p#nav  {
+         
+           text-align: center;  
+          text-shadow: 0 0 0 !important;   
+    } 
+    .login a#nav  {
+         color: #FFFFFF;
+    }

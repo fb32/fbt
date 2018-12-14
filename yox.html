@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>YoxView demo - Open from text links</title>
+		<link rel="Stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="/wp-content/themes/portafolio/libs/yoxview/yoxview-init.js"></script>
+		<script type="text/javascript">
+		    $(document).ready(function(){
+		        $(".yoxview").yoxview({ onOpen: function(){ alert('YoxView is now open!');   },skin: "top_menu" });
+		        $("#noLinkClasses").yoxview({ textLinksSelector: "" });
+		        $("#multiple").yoxview({ images: [
+		            { media: { src: "images/large/marmorata1.jpg", title: "Kalanchoe Marmorata" }},
+		            { media: { src: "images/large/marmorata2.jpg", title: "Kalanchoe Marmorata leaves" }},
+		            { media: { src: "images/large/crassula1.jpg", title: "Crassula, oct. 2009" }},
+		            { media: { src: "images/large/crassula2.jpg", title: "Crassula, oct 2010" }}
+		        ]});
+		    });
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<h1>YoxView demo - Open from text links</h1>
+			
+			Click on the links to open YoxView:
+			<p class="yoxview">
+				Lately, I've been really fond of my <a class='yoxviewLink' href="images/large/marmorata1.jpg" title="Kalanchoe Marmorata">Kalanchoe Marmorata</a>. It's a beautiful plant and has very interesting 
+				<a class='yoxviewLink' href="images/large/marmorata2.jpg" title="Kalanchoe Marmorata leaves">leaves</a>.
+			</p>
+			<p id="noLinkClasses">
+			    I've been also amazed at how much the Crassula has grown over the past year. From a <a href="images/large/crassula1.jpg" title="Crassula, oct. 2009">tiny stem</a> with just a few leaves to a <a href="images/large/crassula2.jpg" title="Crassula, oct. 2010">full-grown plant</a>.
+			</p>
+			<a id="multiple" href="#">All images from a single link.</a>
+			<br /><br /><br />
+			<p style="font-size: x-small">And also, <a class="yoxview" href="../images/items/monkey.gif" title="Behind you!">a three-headed monkey</a>.</p>
+			<hr />
+			<br />
+			For more examples, go to <a href="http://www.yoxigen.com/yoxview/usage.aspx">the Yoxview usage page</a>.
+		</div>
+	</body>
+</html>

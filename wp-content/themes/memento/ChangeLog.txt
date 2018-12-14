@@ -1,0 +1,88 @@
+------------------ VER 1.2 - January 15, 2012 ---------------
+
+Fixed: fatal error in functions-panel.php
+
+UPDATED
+core/theme-options/functions-panel.php
+
+
+------------------ VER 1.1 ---------------
+
+Added: option for the hover color of menu
+Added: options for the color of home sections
+Added: option to change the color of page meta background
+Added: splitted buttons.css, to include only what is necessary for the [button] shortcodes
+Added: sidebars for each portfolio in the single pages
+Fixed: notices after wordpress 3.4
+Fixed: bug in almost all categories
+Fixed: bug with [icon] shortcode
+Fixed: options of colors for footer
+Fixed: autoclear of inputs of quick contact
+Fixed: map in stretched layout
+Fixed: template layout of single portfolio post page
+Fixed: bug in the sliders when the theme is installed in a windows server
+Fixed: bug with comments list of blog
+Fixed: localization of theme options panel
+Fixed: bug with portfolio categories widget
+Updated: list of google fonts
+Updated: Layerslider plugin
+
+UPDATED
+memento.less
+home-portfolio.php
+memento.css
+single.php
+slider.php
+loop-internal.php
+loop-portfolio.php
+js/less-1.3.0.min.js
+header.php
+single-portfolio.php
+inc/LayerSlider/layerslider.php
+inc/LayerSlider/settings.php
+inc/LayerSlider/skins/noskin
+inc/LayerSlider/skins/noskin/skin.css
+inc/LayerSlider/css/layerslider.css
+inc/LayerSlider/css/layerslider_admin.css
+inc/LayerSlider/slider.php
+inc/LayerSlider/init.php
+inc/LayerSlider/js/layerslider_admin.js
+inc/LayerSlider/js/layerslider.kreaturamedia.jquery-min.js
+inc/widgets/portfolio_categories.php
+inc/colors.php
+inc/infinity-portfolio.php
+inc/theme-options/home-options.php
+inc/functions-theme.php
+style.css
+core/notifier/default.xml
+core/notifier/update-notifier.php
+core/google-fonts.txt
+core/functions-fonts.php
+core/settings.php
+core/sendemail.php
+core/default-widgets/almost_all_categories.php
+core/theme-options/panel.php
+core/theme-options/install/install.php
+core/theme-options/functions-panel.php
+core/theme-options/yiw-panel.php
+core/functions-sliders.php
+core/functions-template.php
+archives.php
+map.php
+home-testimonials.php
+sidebar-portfolio.php
+
+ADDED
+core/google-fonts.txt
+css/buttons/*.*
+inc/LayerSlider/skins/noskin/skin.css
+
+REMOVED
+css/buttons.css
+js/less-1.3.0.min.js
+memento.less
+
+
+------------------ VER 1.0 ---------------
+
+Initial Release

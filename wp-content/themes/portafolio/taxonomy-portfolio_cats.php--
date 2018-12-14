@@ -1,0 +1,80 @@
+<?php $options = get_option( 'portafolio_theme_settings' ); ?>
+<?php get_header(' '); ?>
+
+<div id="portfolio-wrap" class="clearfix">
+
+<div id="portfolio-left">
+
+    <div class="page-title-port">
+    	<?php
+    		$term =	$wp_query->queried_object;
+    		echo '<h1 class="page-title">'.$term->name.'</h1>';
+    	?>
+    	<div class="sep">Portfolio</div>
+        <?php echo category_description(); ?>
+        
+    </div>
+<div id="portfolio-cats">
+    <h4>Catégories</h4>
+        <?php 
+            $taxonomy     = 'portfolio_cats';
+            $orderby      = 'slug'; 
+            $show_count   = 1;      // 1 for yes, 0 for no
+            $pad_counts   = 0;      // 1 for yes, 0 for no
+            $hierarchical = 1;      // 1 for yes, 0 for no
+            $title        = '';
+            $args = array(
+            'taxonomy'     => $taxonomy,
+            'orderby'      => $orderby,
+            'show_count'   => $show_count,
+            'pad_counts'   => $pad_counts,
+            'hierarchical' => $hierarchical,
+            'title_li'     => $title
+    );
+    ?>
+  
+   		<?php if($options['portfolio_url'] !='') { ?><a href="<?php echo $options['portfolio_url']; ?>" title="Portfolio"></a><?php } ?>
+   		<ul>
+		<?php wp_list_categories( $args ); ?>
+		  </ul>
+
+    </div><!-- END portfolio-cats -->	
+</div><!-- END portfolio-left -->
+
+
+<div id="portfolio-right">
+<?php
+    query_posts($query_string . '&posts_per_page=60'); 
+    $i=0; //start post count at "0"
+    while (have_posts()) : the_post();
+    $i++; //add 1 to the total count
+    echo $post->id;
+    ?>
+    <div class="portfolio-box  <?php if($i===3){ echo 'remove-margin'; } ?>">
+        <?php if ( has_post_thumbnail() ) {  ?>
+        <a href="<?php the_permalink(' ') ?>" title="<?php the_title(); ?>" class="opacity"><?php the_post_thumbnail('portfolio'); ?></a>
+        <p><?php the_title(); ?></p>
+        <?php } ?>
+    </div>
+    <!-- END home-portfolio-box -->
+    <?php
+    //reset the count to "0" and clear the divs
+    if($i===3){ echo '<div class="clear"></div>'; $i=0; } ?>
+    <?php endwhile; ?> 
+	<div class="navigation">
+  
+  <p><?php 
+  // posts_nav_link(' &#8734; ','&laquo; Previous','Next &raquo;'); ?>
+ <?php if(function_exists('wp_paginate')) {
+    wp_paginate();
+} ?>     
+  
+  
+  </p>
+  
+  </div>
+</div><!-- END portfolio-right -->          
+
+</div>
+<!-- END portfolio-wrap -->       
+<?php get_footer(' '); ?>

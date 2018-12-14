@@ -1,0 +1,10 @@
+
+===> Version: 1.01
+
+* changed related post query to get_posts loop
+* added link to related posts title
+
+
+===> Version: 1.02
+
+*added metabox for slides so u can have URL's in your slides

@@ -1,0 +1,57 @@
+
+.gallery-item { 
+    width :auto !important;
+    
+}
+/* MEDIUM */
+@media  only screen and (min-width: 1000px) /*and (min-width:480px)*/ {
+    
+   #portfolio-cats ul li{
+	
+  	width : 330px;
+  	
+    }   
+}
+
+/* MEDIUM */
+@media  only screen and (max-width: 900px) /*and (min-width:480px)*/ {
+
+    #navigation {
+
+        margin-top: 0 !important;
+    }   
+    
+    #wrap { 
+        margin : 0 auto; 
+    }
+    #post-content {
+        width: 90%;
+   
+    }
+     #sidebar {
+         clear : both;
+        width: 90%;
+        margin : 50px 5px 20px 20px ;
+        border-top : 1px solid #EEE;
+        float : none;
+   
+    }
+    #portfolio-cats{
+        float : none;
+    }
+
+    #footer-wrap{
+        position : relative !important;
+    }
+    
+}
+
+
+
+/* SMALL */
+@media screen and (max-width:480px) {
+    
+    #footerSearch { width : 80% ; margin : auto }
+    
+    
+}

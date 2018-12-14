@@ -1,0 +1,167 @@
+<?php
+	// load the theme options
+	$options = get_option( 'portafolio_theme_settings' ); 
+?>
+<?php get_header(' '); ?>
+
+
+
+ <?php	if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('Slider Home') ) : ?>
+  
+ <?php endif; ?>
+ 
+
+
+<?php if ($options['home_text'] !='') { ?>
+<div id="home-quote">
+	<?php echo stripslashes($options['home_text']);  ?>
+</div>
+<!-- END homepage-quote -->
+<?php } ?>
+
+<?php
+	global $post;
+	
+	$args = array(
+		'post_type' =>'portfolio',
+		'posts_per_page' => 1,
+		'order' => 'DESC',
+		'tax_query' => array(
+    array(
+      'taxonomy' => 'portfolio_cats',
+      'field' => 'id',
+      'terms' => 18 // Where term_id of Term 1 is "1".
+    )
+  )	
+		
+	);
+	$portfolio_posts = new WP_Query($args);
+
+?>
+<?php if($portfolio_posts) { ?>
+
+
+<div id="home-portfolio-last" class="clearfix">
+<h2>Dernière photo</h2>
+	<?php
+    while ( $portfolio_posts->have_posts() ) : 
+    
+      $portfolio_posts->the_post(); 
+      //setup_postdata($portfolio_posts);
+
+    ?>
+   
+    <?php if (has_post_thumbnail() ) {  ?>
+	<div id="portfolio-full">
+
+
+
+	<a href="<?php the_permalink(' ') ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail(''); ?></a> 
+  <div style="clear : both"><span class="lbl" style="display:block;color:#999;font-size : 13px"><?php the_title(); ?></div>
+	
+	</div>
+    <?php } ?> 
+
+    <?php endwhile; ?>
+    
+
+</div>
+<!--END home-portfolio -->
+
+
+<?php } wp_reset_postdata(); ?>
+
+
+<?php
+	global $post;
+	$args = array(
+		'post_type' =>'highlights',
+		'numberposts' => -1,
+		'orderby' => 'ASC'
+	);
+	$highlights_posts = get_posts($args);
+?>
+<?php if($highlights_posts) { ?>
+<div id="home-highlights" class="clearfix">
+	<?php
+    $i=0; //start post count at "0"
+    foreach($highlights_posts as $post) : setup_postdata($post);
+    $i++; //add 1 to the total count
+    ?>
+    <div class="home-highlight-box  <?php if($i===3){ echo 'remove-margin'; } ?>">
+        <h2><span><?php the_title(' '); ?></span></h2>
+        <?php if ( has_post_thumbnail() ) {  ?>
+        <?php the_post_thumbnail('home-highlights'); ?>
+        <?php } ?>
+        <?php the_content(' '); ?>
+    </div>
+    <!-- END home-highlight-box -->
+    <?php
+    //reset the count to "0" and clear the divs
+    if($i===3){ echo '<div class="clear"></div>'; $i=0; } ?>
+    <?php endforeach; ?>
+</div>
+<!--END home-highlights -->
+<?php } wp_reset_postdata(); ?>
+
+
+<?php
+	global $post;
+	
+	$args = array(
+		'post_type' =>'portfolio',
+		'posts_per_page' => 8,
+		'order' => 'DESC',
+		'offset' => 1,
+		'tax_query' => array(
+    array(
+      'taxonomy' => 'portfolio_cats',
+      'field' => 'id',
+      'terms' => 18 // Where term_id of Term 1 is "1".
+    )
+  )	 
+  );
+	$portfolio_posts = new WP_Query($args);
+	
+?>
+<?php if($portfolio_posts) { ?>
+
+
+<div id="home-portfolio" class="clearfix">
+<h2>Travaux récents</h2>
+	<?php
+    $i=0; //start post count at "0" 
+    $lastP = 0;
+    while ( $portfolio_posts->have_posts() ) : 
+    
+      $portfolio_posts->the_post(); 
+      //setup_postdata($portfolio_posts);
+      $i++; //add 1 to the total count
+      
+     // ne pas afficher la dernière photo
+     $lastP++;
+    //if ($lastP==1) continue;
+    ?>
+   
+    <?php if (has_post_thumbnail() ) {  ?>
+    <div class="portfolio-box  <?php if($i===4){ echo 'remove-margin'; } ?>" style="margin-right: 55px;"> 
+        <a href="<?php the_permalink(' ') ?>" title="<?php the_title(); ?>" class="opacity"><?php the_post_thumbnail('portfolio'); ?></a>
+        <p class="clbl">
+        <span class='lbl'><?php the_title(); ?></span>
+        </p>
+    </div>
+    <!-- END home-portfolio-box -->
+    <?php } ?> 
+    <?php
+    //reset the count to "0" and clear the divs
+   if($i===4){ echo '<div class="clear"></div>'; $i=0; } ?>
+    <?php endwhile; ?>
+    <div class="clear"></div>
+<?php if($options['portfolio_url'] !='') { ?><div id="view-portfolio"><a class="buttonLink" href="<?php echo $options['portfolio_url']; ?>">Toutes les nouveautés du Portfolio ici &raquo;</a></div><?php } ?>
+</div>
+<!--END home-portfolio -->
+
+
+<?php } wp_reset_postdata(); ?>
+
+<?php get_footer(' '); ?>

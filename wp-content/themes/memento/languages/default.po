@@ -1,0 +1,4464 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kassyopea 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-19 09:30+0100\n"
+"PO-Revision-Date: 2012-06-19 09:30+0100\n"
+"Last-Translator: Nicola Mustone <mail@nicolamustone.it>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:16
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:24
+#: 404.php:28
+msgid "404 Error"
+msgstr ""
+
+#: about-the-author.php:6
+msgid "About the author"
+msgstr ""
+
+#: archives.php:34
+#, php-format
+msgid "Last %d posts"
+msgstr ""
+
+#: archives.php:50
+msgid "Archives by Month"
+msgstr ""
+
+#: archives.php:55
+msgid "Archives by Subject"
+msgstr ""
+
+#: comments.php:13
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:30
+msgid "no comments"
+msgstr ""
+
+#: comments.php:30
+msgid "<span>1</span> comment"
+msgstr ""
+
+#: comments.php:30
+msgid "<span>%</span> comments"
+msgstr ""
+
+#: comments.php:35
+#: comments.php:54
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:36
+#: comments.php:55
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:82
+msgid "No trackback or pingback available for this article"
+msgstr ""
+
+#: comments.php:94
+msgid "&nbsp;"
+msgstr ""
+
+#: comments.php:111
+msgid "Name"
+msgstr ""
+
+#: comments.php:113
+msgid "Email"
+msgstr ""
+
+#: comments.php:115
+msgid "Website"
+msgstr ""
+
+#: comments.php:122
+msgid "Your comment"
+msgstr ""
+
+#: comments.php:123
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:124
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:129
+msgid "Leave a <span>Reply</span>"
+msgstr ""
+
+#: comments.php:130
+#, php-format
+msgid "Leave a <span>Reply</span> to %s"
+msgstr ""
+
+#: comments.php:131
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:132
+msgid "Post Comment"
+msgstr ""
+
+#: gallery-filterable.php:37
+#: home-gallery.php:35
+msgid "All"
+msgstr ""
+
+#: gallery-filterable.php:99
+#: home-gallery.php:80
+msgid "View More"
+msgstr ""
+
+#: gallery-responsive.php:76
+msgid "Previous"
+msgstr ""
+
+#: gallery-responsive.php:77
+msgid "Next"
+msgstr ""
+
+#: header.php:47
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: header.php:145
+msgid "Open map"
+msgstr ""
+
+#: header.php:146
+msgid "Close map"
+msgstr ""
+
+#: loop-blog-big.php:8
+#: loop-blog-memento.php:22
+#: loop-blog-noimage.php:12
+#: loop-blog-small.php:18
+msgid "by"
+msgstr ""
+
+#: loop-blog-big.php:10
+#: loop-blog-memento.php:24
+#: loop-blog-noimage.php:14
+#: loop-blog-small.php:20
+msgid "No comments"
+msgstr ""
+
+#: loop-blog-big.php:10
+#: loop-blog-memento.php:24
+#: loop-blog-noimage.php:14
+#: loop-blog-small.php:20
+msgid "1 comment"
+msgstr ""
+
+#: loop-blog-big.php:10
+#: loop-blog-memento.php:24
+#: loop-blog-noimage.php:14
+#: loop-blog-small.php:20
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: loop-blog-big.php:11
+#: loop-blog-memento.php:25
+#: loop-blog-memento.php:31
+#: loop-blog-noimage.php:15
+#: loop-blog-noimage.php:21
+#: loop-blog-small.php:21
+#: loop-blog-small.php:27
+#: loop-internal.php:46
+#: loop-portfolio.php:63
+msgid "Edit"
+msgstr ""
+
+#: loop-internal.php:18
+#: loop.php:37
+msgid "(this post has no title)"
+msgstr ""
+
+#: loop-internal.php:58
+#: loop-portfolio.php:75
+#: loop.php:50
+msgid "Not Found"
+msgstr ""
+
+#: loop-internal.php:60
+#: loop-portfolio.php:77
+#: loop.php:52
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: loop-internal.php:76
+#: loop-portfolio.php:93
+#: loop.php:68
+msgid "Next &raquo;"
+msgstr ""
+
+#: loop-internal.php:77
+#: loop-portfolio.php:94
+#: loop.php:69
+msgid "&laquo; Back"
+msgstr ""
+
+#: loop-portfolio.php:22
+msgid "Skills"
+msgstr ""
+
+#: loop-portfolio.php:24
+msgid "Date"
+msgstr ""
+
+#: loop.php:15
+#, php-format
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr ""
+
+#: loop.php:17
+#, php-format
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr ""
+
+#: loop.php:19
+#, php-format
+msgid "Archive for %s | Daily archive page"
+msgstr ""
+
+#: loop.php:19
+msgid "F jS, Y"
+msgstr ""
+
+#: loop.php:21
+#, php-format
+msgid "Archive for %s | Monthly archive page"
+msgstr ""
+
+#: loop.php:21
+msgid "F Y"
+msgstr ""
+
+#: loop.php:23
+#, php-format
+msgid "Archive for %s | Yearly archive page"
+msgstr ""
+
+#: loop.php:23
+msgid "Y"
+msgstr ""
+
+#: loop.php:25
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: loop.php:27
+msgid "Author Archive"
+msgstr ""
+
+#: loop.php:29
+msgid "Blog Archives"
+msgstr ""
+
+#: map.php:47
+msgid "Close Map"
+msgstr ""
+
+#: map.php:47
+msgid "Open Map"
+msgstr ""
+
+#: searchform.php:2
+msgid "Search for"
+msgstr ""
+
+#: searchform.php:4
+#: sidebar-default.php:4
+msgid "Search"
+msgstr ""
+
+#: sidebar-default.php:9
+msgid "Archives"
+msgstr ""
+
+#: sidebar-default.php:16
+msgid "Categories"
+msgstr ""
+
+#: sidebar-default.php:32
+msgid "Blogroll"
+msgstr ""
+
+#: core/functions-core.php:355
+msgid "Days"
+msgstr ""
+
+#: core/functions-core.php:355
+msgid "Hours"
+msgstr ""
+
+#: core/functions-core.php:355
+msgid "Minutes"
+msgstr ""
+
+#: core/functions-core.php:393
+msgid "Yesterday"
+msgstr ""
+
+#: core/functions-core.php:395
+msgid "hours"
+msgstr ""
+
+#: core/functions-core.php:395
+#: core/functions-core.php:397
+msgid "ago"
+msgstr ""
+
+#: core/functions-core.php:397
+msgid "minutes"
+msgstr ""
+
+#: core/functions-dashboard.php:16
+msgid "News from the support forum"
+msgstr ""
+
+#: core/functions-dashboard.php:17
+msgid "News from the YIW Blog"
+msgstr ""
+
+#: core/functions-metaboxes.php:127
+#: core/functions-metaboxes.php:194
+msgid "Invalid post type"
+msgstr ""
+
+#: core/functions-template.php:547
+msgid "Home Page"
+msgstr ""
+
+#: core/functions-template.php:639
+msgid "Page"
+msgstr ""
+
+#: core/register-metaboxes.php:21
+msgid "You can configure this page as you want, setting these optional options."
+msgstr ""
+
+#: core/register-metaboxes.php:25
+msgid "Show Title"
+msgstr ""
+
+#: core/register-metaboxes.php:28
+msgid "Yes"
+msgstr ""
+
+#: core/register-metaboxes.php:29
+msgid "No"
+msgstr ""
+
+#: core/register-metaboxes.php:35
+msgid "Layout Page"
+msgstr ""
+
+#: core/register-metaboxes.php:42
+msgid "Select layout of page"
+msgstr ""
+
+#: core/register-metaboxes.php:48
+msgid "Sidebar Page"
+msgstr ""
+
+#: core/register-metaboxes.php:51
+msgid "Select sidebar of page"
+msgstr ""
+
+#: core/register-metaboxes.php:56
+msgid "Options of page"
+msgstr ""
+
+#: core/register-metaboxes.php:62
+msgid "Remove wpautop filter to main content."
+msgstr ""
+
+#: core/register-metaboxes.php:72
+#: core/register-metaboxes.php:78
+msgid "Slogan Page"
+msgstr ""
+
+#: core/register-metaboxes.php:74
+msgid "Insert the slogan showed on top of this page/post."
+msgstr ""
+
+#: core/register-metaboxes.php:84
+msgid "If you want, you can add some text to show above the footer, under content and sidebar."
+msgstr ""
+
+#: core/register-metaboxes.php:92
+msgid "Automatically add paragraphs."
+msgstr ""
+
+#: core/register-metaboxes.php:96
+msgid "Extra Content"
+msgstr ""
+
+#: core/sendemail.php:102
+msgid "Email sent correctly!"
+msgstr ""
+
+#: core/sendemail.php:105
+msgid "An error has been encountered. Please try again."
+msgstr ""
+
+#: core/sendemail.php:281
+msgid "send message"
+msgstr ""
+
+#: core/sendemail.php:281
+msgid "alignright"
+msgstr ""
+
+#: core/sendemail.php:320
+msgid "wait..."
+msgstr ""
+
+#: core/settings.php:22
+#, php-format
+msgid "The theme you are using requires WordPress version %s or higher. So, many features of it will not perform correctly."
+msgstr ""
+
+#: core/settings.php:229
+msgid "Pingback:"
+msgstr ""
+
+#: core/settings.php:229
+#: core/settings.php:253
+msgid "(Edit)"
+msgstr ""
+
+#: core/settings.php:239
+#, php-format
+msgid "%s "
+msgstr ""
+
+#: core/settings.php:244
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: core/settings.php:253
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: core/default-shortcodes/widgets.php:917
+msgid "your name"
+msgstr ""
+
+#: core/default-shortcodes/widgets.php:918
+msgid "your email"
+msgstr ""
+
+#: core/default-shortcodes/widgets.php:919
+msgid "Subscribe"
+msgstr ""
+
+#: core/default-widgets/almost_all_categories.php:8
+msgid "Get list of categories, without categories excluded from options panel."
+msgstr ""
+
+#: core/default-widgets/almost_all_categories.php:27
+msgid "Widget Title"
+msgstr ""
+
+#: core/default-widgets/almost_all_categories.php:32
+msgid "Toggles the display of the current count of posts in each category"
+msgstr ""
+
+#: core/default-widgets/almost_all_categories.php:40
+msgid "Configure this widget on the Theme Option Admin, to exclude the categories from this list."
+msgstr ""
+
+#: core/default-widgets/google_map.php:9
+msgid "Box with google map."
+msgstr ""
+
+#: core/default-widgets/last_tweets.php:8
+msgid "Retrieve the last tweets."
+msgstr ""
+
+#: core/default-widgets/popular_posts.php:9
+msgid "Show a list of popular posts, in order of comments, with a preview thumb."
+msgstr ""
+
+#: core/default-widgets/popular_posts.php:71
+#: core/default-widgets/recent_posts.php:69
+msgid "Read More"
+msgstr ""
+
+#: core/default-widgets/popular_posts.php:85
+#: core/default-widgets/recent_posts.php:83
+msgid "Show thumbnail"
+msgstr ""
+
+#: core/default-widgets/popular_posts.php:108
+#: core/default-widgets/recent_posts.php:106
+msgid "Show Post Date or Excerpt"
+msgstr ""
+
+#: core/default-widgets/popular_posts.php:111
+#: core/default-widgets/recent_posts.php:109
+msgid "Excerpt"
+msgstr ""
+
+#: core/default-widgets/recent_posts.php:9
+msgid "The latest posts, with a preview thumb."
+msgstr ""
+
+#: core/default-widgets/recent_posts.php:77
+#: core/default-widgets/text_image.php:79
+msgid "Title"
+msgstr ""
+
+#: core/default-widgets/recent_posts.php:92
+msgid "Items"
+msgstr ""
+
+#: core/default-widgets/recent_posts.php:99
+msgid "More Text"
+msgstr ""
+
+#: core/default-widgets/text_image.php:8
+msgid "Arbitrary text or HTML, with a simple image above text."
+msgstr ""
+
+#: core/default-widgets/text_image.php:13
+msgid "Text With Image"
+msgstr ""
+
+#: core/default-widgets/text_image.php:85
+msgid "Image"
+msgstr ""
+
+#: core/default-widgets/text_image.php:92
+msgid "Image Alignment"
+msgstr ""
+
+#: core/default-widgets/text_image.php:111
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: core/theme-options/functions-panel.php:6
+msgid "The element you have written is already exists. Please, add another name."
+msgstr ""
+
+#: core/theme-options/functions-panel.php:7
+msgid "Settings saved"
+msgstr ""
+
+#: core/theme-options/functions-panel.php:8
+msgid "Settings reset"
+msgstr ""
+
+#: core/theme-options/functions-panel.php:9
+msgid "Element deleted correctly."
+msgstr ""
+
+#: core/theme-options/functions-panel.php:10
+msgid "Element updated correctly."
+msgstr ""
+
+#: core/theme-options/functions-panel.php:11
+msgid "Database imported correctly."
+msgstr ""
+
+#: core/theme-options/functions-panel.php:12
+#: core/theme-options/install/install.php:135
+msgid "An error encoured during during import. Please try again."
+msgstr ""
+
+#: core/theme-options/functions-panel.php:13
+#: core/theme-options/install/install.php:102
+msgid "The file you have insert doesn't valid."
+msgstr ""
+
+#: core/theme-options/functions-panel.php:14
+msgid "I'm sorry, the import featured is disabled."
+msgstr ""
+
+#: core/theme-options/functions-panel.php:15
+msgid "Sorting done correctly."
+msgstr ""
+
+#: core/theme-options/functions-panel.php:135
+#: core/theme-options/settings-panel.php:3
+#: core/theme-options/yiw-panel.php:47
+msgid "Theme Options"
+msgstr ""
+
+#: core/theme-options/functions-panel.php:471
+msgid "The contact form choosen is empty, so the form will not shown in the page."
+msgstr ""
+
+#: core/theme-options/panel.php:80
+#: core/theme-options/panel.php:1449
+msgid "Save changes"
+msgstr ""
+
+#: core/theme-options/panel.php:118
+msgid "To easily use the options of the theme, you can use the menu below."
+msgstr ""
+
+#: core/theme-options/panel.php:162
+msgid "Copy to clipboard"
+msgstr ""
+
+#: core/theme-options/panel.php:342
+msgid "or upload your icon:"
+msgstr ""
+
+#: core/theme-options/panel.php:344
+msgid "Upload"
+msgstr ""
+
+#: core/theme-options/panel.php:718
+#: core/theme-options/panel.php:912
+msgid "Upload Image"
+msgstr ""
+
+#: core/theme-options/panel.php:779
+#: core/theme-options/panel.php:1014
+#: core/theme-options/panel.php:1122
+#: core/theme-options/panel.php:1403
+msgid "Delete"
+msgstr ""
+
+#: core/theme-options/panel.php:836
+msgid "Order"
+msgstr ""
+
+#: core/theme-options/panel.php:851
+#: core/theme-options/panel.php:852
+msgid "Slide Title"
+msgstr ""
+
+#: core/theme-options/panel.php:858
+#: core/theme-options/panel.php:859
+msgid "Tooltip Content"
+msgstr ""
+
+#: core/theme-options/panel.php:858
+msgid "HTML Tags allowed"
+msgstr ""
+
+#: core/theme-options/panel.php:865
+msgid "Image position"
+msgstr ""
+
+#: core/theme-options/panel.php:865
+#: core/theme-options/panel.php:877
+msgid "Values must be expressed in pixels"
+msgstr ""
+
+#: core/theme-options/panel.php:867
+#: core/theme-options/panel.php:879
+msgid "Top"
+msgstr ""
+
+#: core/theme-options/panel.php:868
+#: core/theme-options/panel.php:880
+msgid "Left"
+msgstr ""
+
+#: core/theme-options/panel.php:869
+#: core/theme-options/panel.php:881
+msgid "Right"
+msgstr ""
+
+#: core/theme-options/panel.php:870
+#: core/theme-options/panel.php:882
+msgid "Bottom"
+msgstr ""
+
+#: core/theme-options/panel.php:877
+msgid "Text position"
+msgstr ""
+
+#: core/theme-options/panel.php:909
+#: core/theme-options/panel.php:911
+msgid "Image URL"
+msgstr ""
+
+#: core/theme-options/panel.php:922
+#: core/theme-options/panel.php:925
+msgid "URL Video"
+msgstr ""
+
+#: core/theme-options/panel.php:924
+msgid "url by Youtube or Vimeo"
+msgstr ""
+
+#: core/theme-options/panel.php:936
+msgid "Slide Link"
+msgstr ""
+
+#: core/theme-options/panel.php:938
+msgid "page"
+msgstr ""
+
+#: core/theme-options/panel.php:939
+msgid "category"
+msgstr ""
+
+#: core/theme-options/panel.php:941
+msgid "url"
+msgstr ""
+
+#: core/theme-options/panel.php:942
+msgid "none"
+msgstr ""
+
+#: core/theme-options/panel.php:979
+msgid "Choose a page..."
+msgstr ""
+
+#: core/theme-options/panel.php:1002
+#: core/theme-options/panel.php:1003
+msgid "Extra Tooltip"
+msgstr ""
+
+#: core/theme-options/panel.php:1002
+msgid "The tooltip that you can add inside the image. Leave empty the content to not use"
+msgstr ""
+
+#: core/theme-options/panel.php:1029
+msgid "Add Slide"
+msgstr ""
+
+#: core/theme-options/panel.php:1030
+msgid "Add/Edit Slide"
+msgstr ""
+
+#: core/theme-options/panel.php:1031
+msgid "Delete all slides"
+msgstr ""
+
+#: core/theme-options/panel.php:1091
+msgid "Field Title"
+msgstr ""
+
+#: core/theme-options/panel.php:1092
+#: core/theme-options/include/contact_add.php:149
+msgid "Data Name"
+msgstr ""
+
+#: core/theme-options/panel.php:1093
+#: core/theme-options/include/contact_add.php:243
+msgid "Required"
+msgstr ""
+
+#: core/theme-options/panel.php:1094
+msgid "Type"
+msgstr ""
+
+#: core/theme-options/panel.php:1110
+#: core/theme-options/panel.php:1347
+msgid "Move up"
+msgstr ""
+
+#: core/theme-options/panel.php:1116
+#: core/theme-options/panel.php:1353
+msgid "Move down"
+msgstr ""
+
+#: core/theme-options/panel.php:1128
+msgid "No fields created yet."
+msgstr ""
+
+#: core/theme-options/panel.php:1317
+msgid "Use this table to compose your home page."
+msgstr ""
+
+#: core/theme-options/panel.php:1323
+msgid "Element"
+msgstr ""
+
+#: core/theme-options/panel.php:1324
+msgid "Visibile"
+msgstr ""
+
+#: core/theme-options/panel.php:1363
+msgid "No elements available."
+msgstr ""
+
+#: core/theme-options/panel.php:1454
+msgid "If you continue with this action, you will reset all options are in this page."
+msgstr ""
+
+#: core/theme-options/panel.php:1455
+#: core/theme-options/include/contact_add.php:304
+msgid "Reset"
+msgstr ""
+
+#: core/theme-options/panel.php:1455
+msgid "Are you sure of it?"
+msgstr ""
+
+#: core/theme-options/settings-panel.php:8
+msgid "Panel Import"
+msgstr ""
+
+#: core/theme-options/settings-panel.php:20
+msgid "Choose a category"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:75
+msgid "Add New Field"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:76
+msgid "Add new field for your contact module."
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:84
+msgid "Edit Field"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:85
+msgid "Edit the attributes of field."
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:139
+msgid "Title Field"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:143
+msgid "Insert the title of field."
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:153
+msgid "The identification name of this field, that you can insert into body email configuration."
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:159
+msgid "Description"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:163
+msgid "Small description, showed near name title."
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:169
+msgid "Type field"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:175
+msgid "Select the type of this field."
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:181
+msgid "Add options"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:184
+msgid "Add option"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:194
+#: core/theme-options/include/contact_add.php:201
+msgid "Selected"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:196
+#: core/theme-options/include/contact_add.php:203
+msgid "Delete option"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:211
+msgid "Checked"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:216
+msgid "Select this if you want this field already checked."
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:223
+msgid "Label for Checkbox"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:227
+msgid "Insert the label message for checkbox."
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:233
+msgid "Message Error"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:237
+msgid "Insert the error message for validation."
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:248
+msgid "Select this if it must be required."
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:260
+msgid "Select this if it must be a valid email."
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:267
+msgid "Reply To"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:272
+msgid "Select this if it's the email where you can reply."
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:279
+msgid "Class"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:283
+msgid "Insert an additional class for more personalization. (you can insert more class, separeted by space)"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:288
+msgid "Icon"
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:292
+msgid "Insert an icon for more personalization."
+msgstr ""
+
+#: core/theme-options/include/contact_add.php:303
+#: core/theme-options/include/panel-import.php:20
+msgid "Save"
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:5
+msgid "Import configuration"
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:15
+msgid "Save configuration"
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:23
+msgid "Save the actual configuration of theme options. Put the name and you be able to see this configuration on the list below."
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:24
+msgid "In future, you can select it to restore the options just saved."
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:36
+msgid "Apply Configuration"
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:45
+msgid "Apply"
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:49
+msgid "Choose one of these settings saved before, to apply them on the theme."
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:63
+msgid "List of all configurations"
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:71
+msgid "All configurations saved"
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:83
+msgid "Delete Configuration"
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:92
+msgid "No configurations created!"
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:99
+msgid "The list of all configurations saved. You can apply one of these theme options saved and restore them."
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:111
+msgid "Export/Import"
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:121
+msgid "Import Theme Options"
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:124
+msgid "Import"
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:128
+msgid "Put here the string for import all theme options and configure the theme in one step."
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:139
+msgid "Export Theme Options"
+msgstr ""
+
+#: core/theme-options/include/panel-import.php:141
+msgid "This is your theme options in one code string, that you can put in the \"Import\" textarea and restore the entire panel configuration."
+msgstr ""
+
+#: core/theme-options/install/install.php:109
+#: core/theme-options/install/install.php:115
+#: core/theme-options/install/install.php:121
+msgid "Tools -> Import"
+msgstr ""
+
+#: core/theme-options/install/install.php:144
+#: core/theme-options/install/install.php:174
+#, php-format
+msgid "Truncated %s table"
+msgstr ""
+
+#: core/theme-options/install/install.php:161
+#: core/theme-options/install/install.php:191
+#, php-format
+msgid "Insert new values into %s table"
+msgstr ""
+
+#: core/theme-options/install/install.php:163
+#: core/theme-options/install/install.php:193
+#, php-format
+msgid "Error during insert new values (IDs: %s), in %s table"
+msgstr ""
+
+#: core/theme-options/install/install.php:227
+#, php-format
+msgid "Deleted value from %s table"
+msgstr ""
+
+#: core/theme-options/install/install.php:229
+#, php-format
+msgid "Error during deleting from %s table (SQL: %s)"
+msgstr ""
+
+#: core/theme-options/install/install.php:251
+#, php-format
+msgid "Insert new values, into %s table"
+msgstr ""
+
+#: core/theme-options/install/install.php:253
+#, php-format
+msgid "Error during insert new values (IDs: %s), into %s table"
+msgstr ""
+
+#: core/theme-options/install/install_panel.php:10
+msgid "Import/Export Theme Data"
+msgstr ""
+
+#: core/theme-options/install/install_panel.php:21
+msgid "Import Theme Data"
+msgstr ""
+
+#: core/theme-options/install/install_panel.php:26
+msgid "Insert here the file that you have exported by another installation."
+msgstr ""
+
+#: core/theme-options/install/install_panel.php:28
+msgid "Make a backup of all installation before import, because it will remove all posts and options of theme, so that you can restore if there are problems after import."
+msgstr ""
+
+#: core/theme-options/install/install_panel.php:39
+msgid "Click here to download a file with all export, that you will use to import to another installation."
+msgstr ""
+
+#: core/theme-options/options/panelimport-options.php:7
+msgid "Panel import configuration"
+msgstr ""
+
+#: core/tinymce/lightbox.php:52
+msgid "Choose shortcode"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:4
+msgid "Column 1/4"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:8
+msgid "Column 1/4 last"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:12
+msgid "Column 1/3"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:16
+msgid "Column 1/3 last"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:20
+msgid "Column 2/3"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:24
+msgid "Column 2/3 last"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:28
+msgid "Column 2/4"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:32
+msgid "Column 2/4 last"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:36
+msgid "Recent Posts"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:43
+msgid "The number of items to display"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:53
+msgid "Show Thumb?"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:63
+msgid "Show Date?"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:81
+msgid "Success Box"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:85
+msgid "Arrow Box"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:89
+msgid "Alert Box"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:93
+msgid "Error Box"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:97
+msgid "Notice Box"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:101
+msgid "Info Box"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:105
+msgid "Button icon"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:113
+msgid "Arrow"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:114
+msgid "Arrow left"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:115
+msgid "Calculator"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:116
+msgid "Gift"
+msgstr ""
+
+#: core/tinymce/register-shortcodes.php:117
+msgid "Remove"
+msgstr ""
+
+#: core/tinymce/tinymce.php:50
+msgid "Add shortcodes"
+msgstr ""
+
+#: core/tinymce/tinymce.php:50
+msgid "Add Styles with Shortcodes"
+msgstr ""
+
+#: core/tinymce/tinymce.php:174
+msgid "Insert shortcode"
+msgstr ""
+
+#: inc/colors.php:17
+msgid "Top bar"
+msgstr ""
+
+#: inc/colors.php:24
+#: inc/colors.php:127
+#: inc/colors.php:378
+#: inc/colors.php:416
+msgid "Background color"
+msgstr ""
+
+#: inc/colors.php:25
+msgid "Select the background color of the top bar. (Default #232323)"
+msgstr ""
+
+#: inc/colors.php:33
+msgid "Text color"
+msgstr ""
+
+#: inc/colors.php:34
+msgid "Select the color of the text in top bar. (Default #e6e4e4)"
+msgstr ""
+
+#: inc/colors.php:41
+msgid "Links color"
+msgstr ""
+
+#: inc/colors.php:42
+msgid "Select the color of the links in the top bar. (Default #f8a006)"
+msgstr ""
+
+#: inc/colors.php:49
+msgid "Links color (hover state)"
+msgstr ""
+
+#: inc/colors.php:50
+msgid "Select the color of the links in the top bar. (Default #ffffff)"
+msgstr ""
+
+#: inc/colors.php:57
+msgid "Menu links color"
+msgstr ""
+
+#: inc/colors.php:58
+msgid "Select the color of the links in the menu of the top bar. (Default #bcbcbc)"
+msgstr ""
+
+#: inc/colors.php:65
+msgid "Menu links color (hover state)"
+msgstr ""
+
+#: inc/colors.php:66
+msgid "Select the color of the links in the menu of the top bar. (Default #ffffff)"
+msgstr ""
+
+#: inc/colors.php:73
+msgid "Menu border right color"
+msgstr ""
+
+#: inc/colors.php:74
+msgid "Select the color of the border right in the menu of the top bar. (Default #373737)"
+msgstr ""
+
+#: inc/colors.php:81
+msgid "Submenu background color"
+msgstr ""
+
+#: inc/colors.php:82
+msgid "Select the background color of the submenu in the top bar. (Default #191919)"
+msgstr ""
+
+#: inc/colors.php:89
+msgid "Submenu background color (hover state)"
+msgstr ""
+
+#: inc/colors.php:90
+msgid "Select the background color of the submenu in the top bar (hover state). (Default #0F0F0F)"
+msgstr ""
+
+#: inc/colors.php:97
+msgid "Submenu border color"
+msgstr ""
+
+#: inc/colors.php:98
+msgid "Select the border color of the submenu in the top bar. (Default #333333)"
+msgstr ""
+
+#: inc/colors.php:105
+msgid "Submenu links color"
+msgstr ""
+
+#: inc/colors.php:106
+msgid "Select the color of the links in the submenu of the top bar. (Default #bcbcbc)"
+msgstr ""
+
+#: inc/colors.php:113
+msgid "Submenu links color (hover state)"
+msgstr ""
+
+#: inc/colors.php:114
+msgid "Select the color of the links in the submenu of the top bar. (Default #ffffff)"
+msgstr ""
+
+#: inc/colors.php:120
+msgid "Header"
+msgstr ""
+
+#: inc/colors.php:128
+msgid "Select the color of the background. (default #2B2B2B) <br />Note: for the background of menu navigation, see the options below."
+msgstr ""
+
+#: inc/colors.php:135
+msgid "Logo"
+msgstr ""
+
+#: inc/colors.php:142
+msgid "Logo color"
+msgstr ""
+
+#: inc/colors.php:143
+msgid "Select the color of the logo. (default #ffffff)"
+msgstr ""
+
+#: inc/colors.php:150
+msgid "Logo highlight color"
+msgstr ""
+
+#: inc/colors.php:151
+msgid "Select the color of the logo highlight. (default #b0b0b0)"
+msgstr ""
+
+#: inc/colors.php:158
+#: inc/fonts.php:181
+msgid "Logo description"
+msgstr ""
+
+#: inc/colors.php:159
+msgid "Select the color of the description below the logo. (default #545252)"
+msgstr ""
+
+#: inc/colors.php:166
+msgid "Main Menu"
+msgstr ""
+
+#: inc/colors.php:173
+msgid "Main navigation background color"
+msgstr ""
+
+#: inc/colors.php:174
+msgid "Select the color of the background of the main menu. (default #2b2b2b)"
+msgstr ""
+
+#: inc/colors.php:181
+msgid "Main navigation background color (hover effect)"
+msgstr ""
+
+#: inc/colors.php:182
+msgid "Select the color of the background of the main menu. (default #444444)"
+msgstr ""
+
+#: inc/colors.php:197
+msgid "Main navigation right border color"
+msgstr ""
+
+#: inc/colors.php:198
+msgid "Select the color of the right border of the main menu items. (default #111111)"
+msgstr ""
+
+#: inc/colors.php:213
+msgid "Main navigation left border color"
+msgstr ""
+
+#: inc/colors.php:214
+msgid "Select the color of the left border of the main menu items. (default #3c3c3c)"
+msgstr ""
+
+#: inc/colors.php:221
+msgid "Main navigation items color"
+msgstr ""
+
+#: inc/colors.php:222
+msgid "Select the color of each item in main menu. (default #999999)"
+msgstr ""
+
+#: inc/colors.php:229
+msgid "Main navigation items color (hover effect)"
+msgstr ""
+
+#: inc/colors.php:230
+msgid "Select the color of each item in main menu when the hover event is triggered. (default #ffffff)"
+msgstr ""
+
+#: inc/colors.php:237
+msgid "Main navigation items color (active effect)"
+msgstr ""
+
+#: inc/colors.php:238
+msgid "Select the color of each item in main menu when the item is active. (default #ffffff)"
+msgstr ""
+
+#: inc/colors.php:245
+msgid "Sub navigations background color"
+msgstr ""
+
+#: inc/colors.php:246
+msgid "Select the color of the background of the sub menus. (default #2b2b2b)"
+msgstr ""
+
+#: inc/colors.php:253
+msgid "Sub navigations background color (hover effect)"
+msgstr ""
+
+#: inc/colors.php:254
+msgid "Select the color of the background of the sub menus. (default #444444)"
+msgstr ""
+
+#: inc/colors.php:261
+msgid "Sub navigations top border color"
+msgstr ""
+
+#: inc/colors.php:262
+msgid "Select the color of the top border of the sub menus items. (default #3b3b3b)"
+msgstr ""
+
+#: inc/colors.php:269
+msgid "Sub navigations bottom border color"
+msgstr ""
+
+#: inc/colors.php:270
+msgid "Select the color of the bottom border of the sub menus items. (default #0c0c0c)"
+msgstr ""
+
+#: inc/colors.php:277
+msgid "Sub navigations items color"
+msgstr ""
+
+#: inc/colors.php:278
+msgid "Select the color of each item in sub navigations. (default #8A999F)"
+msgstr ""
+
+#: inc/colors.php:285
+msgid "Sub navigations items color (hover effect)"
+msgstr ""
+
+#: inc/colors.php:286
+msgid "Select the color of each item in sub navigations when the hover event is triggered. (default #ffffff)"
+msgstr ""
+
+#: inc/colors.php:292
+msgid "Headings"
+msgstr ""
+
+#: inc/colors.php:299
+msgid "Heading 1"
+msgstr ""
+
+#: inc/colors.php:300
+msgid "Select the color for Heading 1 items. (default #232323)"
+msgstr ""
+
+#: inc/colors.php:307
+msgid "Heading 2"
+msgstr ""
+
+#: inc/colors.php:308
+msgid "Select the color for Heading 2 items. (default #232323)"
+msgstr ""
+
+#: inc/colors.php:315
+msgid "Heading 3"
+msgstr ""
+
+#: inc/colors.php:316
+msgid "Select the color for Heading 3 items. (default #232323)"
+msgstr ""
+
+#: inc/colors.php:323
+msgid "Heading 4"
+msgstr ""
+
+#: inc/colors.php:324
+msgid "Select the color for Heading 4 items. (default #232323)"
+msgstr ""
+
+#: inc/colors.php:331
+msgid "Heading 5"
+msgstr ""
+
+#: inc/colors.php:332
+msgid "Select the color for Heading 5 items. (default #232323)"
+msgstr ""
+
+#: inc/colors.php:339
+msgid "Heading 6"
+msgstr ""
+
+#: inc/colors.php:340
+msgid "Select the color for Heading 6 items. (default #232323)"
+msgstr ""
+
+#: inc/colors.php:347
+msgid "Heading highlightes"
+msgstr ""
+
+#: inc/colors.php:348
+msgid "Select the color for titles highlightes. (default #d48303)"
+msgstr ""
+
+#: inc/colors.php:355
+msgid "Sidebar titles"
+msgstr ""
+
+#: inc/colors.php:356
+msgid "Select the color for titles in sidebar sections. (default #232323)"
+msgstr ""
+
+#: inc/colors.php:363
+msgid "Footer titles"
+msgstr ""
+
+#: inc/colors.php:364
+msgid "Select the color for titles in footer sections. (default #ffffff)"
+msgstr ""
+
+#: inc/colors.php:371
+msgid "Home Sections"
+msgstr ""
+
+#: inc/colors.php:379
+msgid "Select the background color of the boxes. (default #ffffff)"
+msgstr ""
+
+#: inc/colors.php:386
+msgid "Border color (Home row)"
+msgstr ""
+
+#: inc/colors.php:387
+msgid "Select the border color of the boxes. (default #ffffff)"
+msgstr ""
+
+#: inc/colors.php:394
+#: inc/colors.php:432
+msgid "Title color"
+msgstr ""
+
+#: inc/colors.php:395
+msgid "Select the color of the titles. (default #232323)"
+msgstr ""
+
+#: inc/colors.php:402
+#: inc/colors.php:440
+msgid "Title color highlight"
+msgstr ""
+
+#: inc/colors.php:403
+msgid "Select the color of the titles highlight. (default #d48303)"
+msgstr ""
+
+#: inc/colors.php:409
+msgid "Home Testimonial Slider"
+msgstr ""
+
+#: inc/colors.php:417
+msgid "Select the background color of the box. (default #ffffff)"
+msgstr ""
+
+#: inc/colors.php:424
+msgid "Border color"
+msgstr ""
+
+#: inc/colors.php:425
+msgid "Select the border right color of the slider. (default #BCBCBC)"
+msgstr ""
+
+#: inc/colors.php:433
+msgid "Select the color of the title. (default #030303)"
+msgstr ""
+
+#: inc/colors.php:441
+msgid "Select the color of the titles highlight. (default #D48303)"
+msgstr ""
+
+#: inc/colors.php:448
+msgid "Page meta"
+msgstr ""
+
+#: inc/colors.php:454
+msgid "Box background color"
+msgstr ""
+
+#: inc/colors.php:455
+msgid "Select the background color for the box. (default #ffffff)"
+msgstr ""
+
+#: inc/colors.php:462
+#: inc/fonts.php:188
+msgid "Page title"
+msgstr ""
+
+#: inc/colors.php:463
+msgid "Select the color for the page title. (default #030303)"
+msgstr ""
+
+#: inc/colors.php:470
+#: inc/fonts.php:195
+msgid "Slogan"
+msgstr ""
+
+#: inc/colors.php:471
+msgid "Select the color for slogan. (default #030303)"
+msgstr ""
+
+#: inc/colors.php:478
+msgid "Breadcrumbs links"
+msgstr ""
+
+#: inc/colors.php:479
+msgid "Select the color for the page breadcrumbs links. (default #6f6f6f)"
+msgstr ""
+
+#: inc/colors.php:486
+msgid "Breadcrumbs links (hover effect)"
+msgstr ""
+
+#: inc/colors.php:487
+msgid "Select the color for the page breadcrumbs links. (default #000000)"
+msgstr ""
+
+#: inc/colors.php:494
+msgid "Paragraphs and links"
+msgstr ""
+
+#: inc/colors.php:501
+msgid "Paragraphs"
+msgstr ""
+
+#: inc/colors.php:502
+msgid "Select the color for paragraphs. (default #545252)"
+msgstr ""
+
+#: inc/colors.php:509
+msgid "Links"
+msgstr ""
+
+#: inc/colors.php:510
+msgid "Select the color for links. (default #AB5705)"
+msgstr ""
+
+#: inc/colors.php:517
+msgid "Links (hover effect)"
+msgstr ""
+
+#: inc/colors.php:518
+msgid "Select the color for links (hover effect). (default #1f1f1f)"
+msgstr ""
+
+#: inc/colors.php:525
+msgid "Sidebar links"
+msgstr ""
+
+#: inc/colors.php:526
+msgid "Select the color for links in the sidebar. (default #1f1f1f)"
+msgstr ""
+
+#: inc/colors.php:533
+msgid "Sidebar links (hover effect)"
+msgstr ""
+
+#: inc/colors.php:534
+msgid "Select the color for links in the sidebar (hover effect). (default #AB5705)"
+msgstr ""
+
+#: inc/colors.php:540
+msgid "Footer"
+msgstr ""
+
+#: inc/colors.php:547
+msgid "Footer background"
+msgstr ""
+
+#: inc/colors.php:548
+msgid "Select the color for the background. (default transparent)"
+msgstr ""
+
+#: inc/colors.php:555
+msgid "Footer inner background"
+msgstr ""
+
+#: inc/colors.php:556
+msgid "Select the color for the inner background. (default transparent)"
+msgstr ""
+
+#: inc/colors.php:563
+msgid "Footer text color"
+msgstr ""
+
+#: inc/colors.php:564
+msgid "Select the color for text. (default #ffffff)"
+msgstr ""
+
+#: inc/colors.php:571
+msgid "Footer widgets links"
+msgstr ""
+
+#: inc/colors.php:572
+msgid "Select the color for the widgets links. (default #c98206)"
+msgstr ""
+
+#: inc/colors.php:579
+msgid "Footer widgets links (hover effect)"
+msgstr ""
+
+#: inc/colors.php:580
+msgid "Select the color for the widgets links. (default #ffffff)"
+msgstr ""
+
+#: inc/colors.php:586
+#: inc/config-theme.php:50
+msgid "Blog"
+msgstr ""
+
+#: inc/colors.php:593
+#: inc/fonts.php:211
+msgid "Blog title"
+msgstr ""
+
+#: inc/colors.php:594
+msgid "Select the color for blog titles. (default #000000)"
+msgstr ""
+
+#: inc/colors.php:601
+msgid "Blog title (hover effect)"
+msgstr ""
+
+#: inc/colors.php:602
+msgid "Select the color for blog titles, on the mouse over. (default #c98206)"
+msgstr ""
+
+#: inc/config-theme.php:35
+msgid "General"
+msgstr ""
+
+#: inc/config-theme.php:36
+msgid "Home page"
+msgstr ""
+
+#: inc/config-theme.php:37
+msgid "Sections"
+msgstr ""
+
+#: inc/config-theme.php:38
+msgid "Colors"
+msgstr ""
+
+#: inc/config-theme.php:39
+msgid "Typography"
+msgstr ""
+
+#: inc/config-theme.php:40
+msgid "Features Tab"
+msgstr ""
+
+#: inc/config-theme.php:41
+msgid "Sliders"
+msgstr ""
+
+#: inc/config-theme.php:42
+msgid "Flash slider"
+msgstr ""
+
+#: inc/config-theme.php:43
+msgid "Sidebars"
+msgstr ""
+
+#: inc/config-theme.php:44
+msgid "Contact Forms"
+msgstr ""
+
+#: inc/config-theme.php:48
+msgid "Home Row"
+msgstr ""
+
+#: inc/config-theme.php:49
+msgid "Content"
+msgstr ""
+
+#: inc/config-theme.php:51
+#: inc/infinity-portfolio.php:14
+#: inc/infinity-portfolio.php:54
+#: inc/metaboxes.php:71
+msgid "Portfolio"
+msgstr ""
+
+#: inc/config-theme.php:52
+#: inc/post-types.php:67
+#: inc/post-types.php:70
+msgid "Gallery"
+msgstr ""
+
+#: inc/config-theme.php:53
+#: inc/post-types.php:98
+#: inc/post-types.php:101
+msgid "Services"
+msgstr ""
+
+#: inc/config-theme.php:54
+msgid "Testimonials slider"
+msgstr ""
+
+#: inc/config-theme.php:58
+msgid "None"
+msgstr ""
+
+#: inc/config-theme.php:59
+msgid "Fixed Image"
+msgstr ""
+
+#: inc/config-theme.php:60
+msgid "Layers Slider"
+msgstr ""
+
+#: inc/config-theme.php:61
+msgid "Elegant Slider"
+msgstr ""
+
+#: inc/config-theme.php:62
+msgid "Elastic Slider"
+msgstr ""
+
+#: inc/config-theme.php:63
+msgid "Nivo Slider"
+msgstr ""
+
+#: inc/config-theme.php:64
+msgid "With Thumbnails"
+msgstr ""
+
+#: inc/config-theme.php:65
+msgid "Slider Flash"
+msgstr ""
+
+#: inc/config-theme.php:69
+msgid "3 Columns"
+msgstr ""
+
+#: inc/config-theme.php:70
+msgid "With Slider"
+msgstr ""
+
+#: inc/config-theme.php:71
+msgid "Big Image"
+msgstr ""
+
+#: inc/config-theme.php:72
+msgid "Full Description"
+msgstr ""
+
+#: inc/config-theme.php:73
+msgid "Filterable"
+msgstr ""
+
+#: inc/fonts.php:93
+msgid "Font-sizes"
+msgstr ""
+
+#: inc/fonts.php:100
+msgid "Navigation text"
+msgstr ""
+
+#: inc/fonts.php:101
+msgid "Size of the navigation items. (Default 12)"
+msgstr ""
+
+#: inc/fonts.php:108
+msgid "Sub Navigation text"
+msgstr ""
+
+#: inc/fonts.php:109
+msgid "Size of the sub navigation items. (Default 12)"
+msgstr ""
+
+#: inc/fonts.php:117
+msgid "General text"
+msgstr ""
+
+#: inc/fonts.php:118
+msgid "Size of the general text paragraphs. (Default 12)"
+msgstr ""
+
+#: inc/fonts.php:125
+msgid "H1 headline"
+msgstr ""
+
+#: inc/fonts.php:126
+msgid "Size of the H1 elements. (Default 26)"
+msgstr ""
+
+#: inc/fonts.php:133
+msgid "H2 headline"
+msgstr ""
+
+#: inc/fonts.php:134
+msgid "Size of the H2 elements.  (Default 20)"
+msgstr ""
+
+#: inc/fonts.php:141
+msgid "H3 headline"
+msgstr ""
+
+#: inc/fonts.php:142
+msgid "Size of the H3 elements.  (Default 20)"
+msgstr ""
+
+#: inc/fonts.php:149
+msgid "H4 headline"
+msgstr ""
+
+#: inc/fonts.php:150
+msgid "Size of the H4 elements.  (Default 18)"
+msgstr ""
+
+#: inc/fonts.php:157
+msgid "H5 headline"
+msgstr ""
+
+#: inc/fonts.php:158
+msgid "Size of the H5 elements.  (Default 12)"
+msgstr ""
+
+#: inc/fonts.php:165
+msgid "H6 headline"
+msgstr ""
+
+#: inc/fonts.php:166
+msgid "Size of the H6 elements.  (Default 12)"
+msgstr ""
+
+#: inc/fonts.php:173
+msgid "Logo text"
+msgstr ""
+
+#: inc/fonts.php:174
+msgid "Size of the Logo when it is a text. (Default 36)"
+msgstr ""
+
+#: inc/fonts.php:182
+msgid "Size of the description below the logo. (Default 12)"
+msgstr ""
+
+#: inc/fonts.php:189
+msgid "Size of the page title. (Default 25)"
+msgstr ""
+
+#: inc/fonts.php:196
+msgid "Size of the Slogan elements. (Default 17)"
+msgstr ""
+
+#: inc/fonts.php:203
+msgid "Footer Widget Area H3 headline"
+msgstr ""
+
+#: inc/fonts.php:204
+msgid "Size of the Footer Widgets H3 elements. (Default 20)"
+msgstr ""
+
+#: inc/fonts.php:212
+msgid "Size of the blog title. (Default 20)"
+msgstr ""
+
+#: inc/functions-theme.php:95
+#: inc/functions-theme.php:101
+#: inc/functions-theme.php:107
+#: inc/functions-theme.php:113
+#: inc/functions-theme.php:119
+msgid "Design"
+msgstr ""
+
+#: inc/functions-theme.php:131
+msgid "Navigation"
+msgstr ""
+
+#: inc/functions-theme.php:132
+msgid "Navigation in the top bar"
+msgstr ""
+
+#: inc/functions-theme.php:152
+msgid "This sidebar will be shown in all pages with empty sidebar or without any sidebat set."
+msgstr ""
+
+#: inc/functions-theme.php:154
+msgid "The sidebar showed on page with Blog template"
+msgstr ""
+
+#: inc/functions-theme.php:156
+msgid "The row used in the home page so have three or more columns"
+msgstr ""
+
+#: inc/functions-theme.php:157
+msgid "The sidebar used in Gallery Template"
+msgstr ""
+
+#: inc/functions-theme.php:158
+msgid "The sidebar used in Services Single Template."
+msgstr ""
+
+#: inc/functions-theme.php:159
+msgid "The sidebar used in Testimonials Single Template."
+msgstr ""
+
+#: inc/functions-theme.php:160
+msgid "The sidebar used in 404 Error page."
+msgstr ""
+
+#: inc/functions-theme.php:786
+#: inc/functions-theme.php:807
+msgid "Click to expand the image to the natural size"
+msgstr ""
+
+#: inc/functions-theme.php:809
+msgid "Click to minimize the image"
+msgstr ""
+
+#: inc/functions-theme.php:871
+msgid "Click here to update the color selected above"
+msgstr ""
+
+#: inc/hooks.php:35
+#, php-format
+msgid "URL of your %s account"
+msgstr ""
+
+#: inc/infinity-portfolio.php:21
+msgid "view project »"
+msgstr ""
+
+#: inc/infinity-portfolio.php:23
+msgid "Work"
+msgstr ""
+
+#: inc/infinity-portfolio.php:24
+msgid "Works"
+msgstr ""
+
+#: inc/infinity-portfolio.php:25
+msgid "Category project"
+msgstr ""
+
+#: inc/infinity-portfolio.php:26
+msgid "category-project"
+msgstr ""
+
+#: inc/infinity-portfolio.php:38
+msgid "The sidebar used in Full description layout and in single portfolio template of \""
+msgstr ""
+
+#: inc/infinity-portfolio.php:51
+msgid "Create Portfolio"
+msgstr ""
+
+#: inc/infinity-portfolio.php:54
+msgid "Portfolios"
+msgstr ""
+
+#: inc/infinity-portfolio.php:54
+msgid "New Portfolio"
+msgstr ""
+
+#: inc/infinity-portfolio.php:115
+#: inc/post-types.php:207
+msgid "Category"
+msgstr ""
+
+#: inc/infinity-portfolio.php:132
+msgid "Set here the features of this portfolio. On right side, you can also choose an icon to show in the admin menu, by upload it in \"Featured Image\""
+msgstr ""
+
+#: inc/infinity-portfolio.php:136
+msgid "Layout"
+msgstr ""
+
+#: inc/infinity-portfolio.php:139
+msgid "Set the layout for this portfolio, that will be used in the page with the portfolio template."
+msgstr ""
+
+#: inc/infinity-portfolio.php:146
+msgid "The number of items to show in this portfolio, when selected in the page. Leave empty to show all items."
+msgstr ""
+
+#: inc/infinity-portfolio.php:153
+msgid "The text of button to read the entire post."
+msgstr ""
+
+#: inc/infinity-portfolio.php:154
+#: inc/infinity-portfolio.php:302
+msgid "View Project"
+msgstr ""
+
+#: inc/infinity-portfolio.php:161
+msgid "Rewrite"
+msgstr ""
+
+#: inc/infinity-portfolio.php:163
+#, php-format
+msgid "Set the rewrite role for the posts of this portfolio (es. %s/). Leave empty to generate it automatically."
+msgstr ""
+
+#: inc/infinity-portfolio.php:168
+msgid "Label Singular"
+msgstr ""
+
+#: inc/infinity-portfolio.php:170
+#: inc/infinity-portfolio.php:176
+msgid "The label that will be shown when you create the post of this portfolio."
+msgstr ""
+
+#: inc/infinity-portfolio.php:175
+msgid "Label Plural"
+msgstr ""
+
+#: inc/infinity-portfolio.php:185
+msgid "Taxonomy"
+msgstr ""
+
+#: inc/infinity-portfolio.php:186
+msgid "Set the taxonomy for this portfolio. Leave empty, if you don't want a taxonomy."
+msgstr ""
+
+#: inc/infinity-portfolio.php:192
+msgid "Taxonomy rewrite"
+msgstr ""
+
+#: inc/infinity-portfolio.php:193
+msgid "Set the rewrite role for the posts of this portfolio. Leave empty to generate it automatically."
+msgstr ""
+
+#: inc/infinity-portfolio.php:198
+msgid "Portfolio options"
+msgstr ""
+
+#: inc/infinity-portfolio.php:216
+msgid "Layout Type"
+msgstr ""
+
+#: inc/infinity-portfolio.php:218
+msgid "Labels"
+msgstr ""
+
+#: inc/infinity-portfolio.php:219
+msgid "Tax"
+msgstr ""
+
+#: inc/infinity-portfolio.php:251
+#: inc/post-types.php:305
+msgid "Portfolio Title"
+msgstr ""
+
+#: inc/infinity-portfolio.php:254
+#: inc/post-types.php:308
+msgid "Category Project"
+msgstr ""
+
+#: inc/metaboxes.php:29
+msgid "Web Site Label"
+msgstr ""
+
+#: inc/metaboxes.php:31
+msgid "Insert the label used for Testimonial Website Url"
+msgstr ""
+
+#: inc/metaboxes.php:36
+msgid "Web Site URL"
+msgstr ""
+
+#: inc/metaboxes.php:38
+msgid "Insert the url referred to Testimonial"
+msgstr ""
+
+#: inc/metaboxes.php:42
+msgid "Website Testimonial"
+msgstr ""
+
+#: inc/metaboxes.php:52
+msgid "Show Breadcrumbs on right of the title"
+msgstr ""
+
+#: inc/metaboxes.php:63
+msgid "Select a slider for this page"
+msgstr ""
+
+#: inc/metaboxes.php:72
+msgid "NB: valid only for the portfolio template"
+msgstr ""
+
+#: inc/metaboxes.php:87
+msgid "Video URL:"
+msgstr ""
+
+#: inc/metaboxes.php:89
+msgid "Here, you can add an Youtube or Vimeo url video, to show on thumb of this portfolio element."
+msgstr ""
+
+#: inc/metaboxes.php:94
+msgid "Video URL"
+msgstr ""
+
+#: inc/metaboxes.php:100
+msgid "Skills Label"
+msgstr ""
+
+#: inc/metaboxes.php:102
+msgid "Insert the label used in skills field"
+msgstr ""
+
+#: inc/metaboxes.php:109
+msgid "Insert the skills"
+msgstr ""
+
+#: inc/metaboxes.php:114
+msgid "Date label"
+msgstr ""
+
+#: inc/metaboxes.php:116
+msgid "Insert the label used in date field"
+msgstr ""
+
+#: inc/metaboxes.php:123
+msgid "Insert the date"
+msgstr ""
+
+#: inc/metaboxes.php:128
+msgid "Skills and Date"
+msgstr ""
+
+#: inc/metaboxes.php:136
+msgid "Role:"
+msgstr ""
+
+#: inc/metaboxes.php:138
+msgid "The role of the collaborator."
+msgstr ""
+
+#: inc/metaboxes.php:142
+msgid "Role"
+msgstr ""
+
+#: inc/metaboxes.php:150
+msgid "Insert the subtitle."
+msgstr ""
+
+#: inc/metaboxes.php:155
+msgid "Subtitle Slide"
+msgstr ""
+
+#: inc/metaboxes.php:162
+msgid "Show Map"
+msgstr ""
+
+#: inc/metaboxes.php:175
+msgid "Link src"
+msgstr ""
+
+#: inc/metaboxes.php:178
+msgid "The link of the map, get from Google Maps."
+msgstr ""
+
+#: inc/metaboxes.php:183
+msgid "Open the map at page loaded."
+msgstr ""
+
+#: inc/metaboxes.php:191
+msgid "Say if you want the map opened when the page is loaded."
+msgstr ""
+
+#: inc/metaboxes.php:195
+msgid "Tab with map"
+msgstr ""
+
+#: inc/post-types.php:52
+msgid "Testimonals"
+msgstr ""
+
+#: inc/post-types.php:55
+msgid "Testimonial"
+msgstr ""
+
+#: inc/post-types.php:55
+msgid "Testimonials"
+msgstr ""
+
+#: inc/post-types.php:70
+#: inc/post-types.php:274
+#: inc/post-types.php:379
+msgid "Photo"
+msgstr ""
+
+#: inc/post-types.php:70
+msgid "Photos"
+msgstr ""
+
+#: inc/post-types.php:82
+#: inc/post-types.php:85
+msgid "Faq"
+msgstr ""
+
+#: inc/post-types.php:85
+msgid "Faqs"
+msgstr ""
+
+#: inc/post-types.php:101
+msgid "Service"
+msgstr ""
+
+#: inc/post-types.php:130
+#: inc/post-types.php:154
+msgid "The post type for the content of accordion sliders"
+msgstr ""
+
+#: inc/post-types.php:198
+msgid "Faq Category"
+msgstr ""
+
+#: inc/post-types.php:198
+msgid "Faq Categories"
+msgstr ""
+
+#: inc/post-types.php:230
+msgid "Story"
+msgstr ""
+
+#: inc/post-types.php:231
+msgid "Web Site"
+msgstr ""
+
+#: inc/post-types.php:276
+msgid "Profile"
+msgstr ""
+
+#: inc/post-types.php:339
+msgid "Question"
+msgstr ""
+
+#: inc/post-types.php:340
+msgid "Answer"
+msgstr ""
+
+#: inc/post-types.php:341
+msgid "FAQ Category"
+msgstr ""
+
+#: inc/post-types.php:378
+msgid "Photo Title"
+msgstr ""
+
+#: inc/post-types.php:380
+msgid "Category Photo"
+msgstr ""
+
+#: inc/post-types.php:462
+msgid "Add New"
+msgstr ""
+
+#: inc/post-types.php:463
+#: inc/post-types.php:490
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: inc/post-types.php:464
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/post-types.php:465
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: inc/post-types.php:466
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: inc/post-types.php:467
+#: inc/post-types.php:484
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: inc/post-types.php:468
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: inc/post-types.php:469
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: inc/post-types.php:485
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: inc/post-types.php:486
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: inc/post-types.php:487
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: inc/post-types.php:488
+msgid "Edit %"
+msgstr ""
+
+#: inc/post-types.php:489
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: inc/post-types.php:491
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: inc/shortcodes.php:268
+msgid "Read more"
+msgstr ""
+
+#: inc/LayerSlider/layerslider.php:188
+#: inc/LayerSlider/layerslider.php:190
+msgid "LayerSlider Widget"
+msgstr ""
+
+#: inc/LayerSlider/layerslider.php:221
+msgid "LayerSlider"
+msgstr ""
+
+#: inc/LayerSlider/layerslider.php:239
+msgid "Title:"
+msgstr ""
+
+#: inc/LayerSlider/settings.php:567
+#: inc/LayerSlider/settings.php:1159
+msgid "Save Changes"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:7
+msgid "Colors Settings"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:12
+#: inc/theme-options/colors-options.php:16
+msgid "Body Background"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:17
+msgid "Select the type of body background."
+msgstr ""
+
+#: inc/theme-options/colors-options.php:21
+msgid "Color Unit"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:26
+msgid "Body bg Color"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:27
+msgid "Select the background color of body."
+msgstr ""
+
+#: inc/theme-options/colors-options.php:32
+msgid "Body bg Image"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:33
+msgid "Select the image of body background or if you want to upload a own bg image."
+msgstr ""
+
+#: inc/theme-options/colors-options.php:33
+msgid "NOTE: on the preview, to update the color informazione, you need to click on the preview, so the color will be updated with that selected above."
+msgstr ""
+
+#: inc/theme-options/colors-options.php:38
+msgid "Custom"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:43
+msgid "Wood"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:46
+msgid "Water"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:55
+msgid "Dotted Flowers"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:68
+msgid "Blu sky"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:70
+msgid "Dark Flourish"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:114
+msgid "Body bg Image Custom"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:115
+msgid "Upload your background image."
+msgstr ""
+
+#: inc/theme-options/colors-options.php:124
+msgid "Body bg Image Repeat"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:125
+msgid "The repeat attribute of body image uploaded above."
+msgstr ""
+
+#: inc/theme-options/colors-options.php:129
+msgid "Repeat"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:130
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:131
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:132
+msgid "No Repeat"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:140
+msgid "Body bg Image Position"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:141
+msgid "The position attribute of body image uploaded above."
+msgstr ""
+
+#: inc/theme-options/colors-options.php:145
+#: inc/theme-options/sliders-options.php:248
+msgid "Center"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:146
+msgid "Top left"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:147
+msgid "Top center"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:148
+msgid "Top right"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:149
+msgid "Bottom left"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:150
+msgid "Bottom center"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:151
+msgid "Bottom right"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:159
+msgid "Body bg Image Attachment"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:160
+msgid "The attachment of the background image."
+msgstr ""
+
+#: inc/theme-options/colors-options.php:164
+msgid "Scroll"
+msgstr ""
+
+#: inc/theme-options/colors-options.php:165
+msgid "Fixed"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:9
+msgid "Contact Page Customize"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:14
+msgid "Create new"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:19
+msgid "New contact form."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:20
+msgid "Add new empty contact form, that you can add into pages or posts. After adding new form, select it on option below and click on \"Configure\" button to configure it."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:23
+msgid "Add Form"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:29
+msgid "Configure contact form."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:30
+msgid "Choose a contact form and save, to configure below your form choosen."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:33
+#: inc/theme-options/sliders-options.php:53
+msgid "Configure"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:37
+msgid "Shortcode of form"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:38
+msgid "Copy this and paste into editor of pages or posts. This is the shortcode of contact form choosen on option above."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:42
+msgid "Delete forms"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:43
+msgid "Delete the forms that you have already created."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:48
+msgid "Add example form."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:49
+msgid "Add a simple example form, specifing the name."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:53
+msgid "Create Form"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:59
+msgid "Contact Form Configuration for"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:63
+msgid "To"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:64
+msgid "Define the emails witch send the email written by the user. If they are more then one, you can write theme separated by a comma."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:69
+msgid "From Email"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:70
+msgid "Define from what email send the message."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:75
+msgid "From Name"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:76
+msgid "Define the name of email that send the message."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:81
+msgid "Subject"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:82
+msgid "Define the subject of the email sent to you."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:87
+msgid "Body"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:88
+msgid "Configure the body email that arrives to you. You can add some shortcode, to add some value insert by user on frontend module. The shortcodes are composed with \"data_name\" that you have insert on each field, on below table, like: %data_name%.<br /><em>HTML is allowed.</em>"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:91
+msgid ""
+"%message%\n"
+"\n"
+"<small><i>This email is been sent by %name% (email. %email%).</i></small>"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:93
+msgid "Label Submit Button"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:94
+msgid "Define the label of submit button."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:99
+msgid "Alignment Submit Button"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:100
+msgid "Set the alignment of submit button."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:110
+msgid "Message Success"
+msgstr ""
+
+#: inc/theme-options/contact-options.php:111
+msgid "Define the message for success sending."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:117
+msgid "Define the message when there is an error on send of email."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:126
+msgid "Customize Contact module"
+msgstr ""
+
+#: inc/theme-options/features-tab-options.php:6
+msgid "Features tab manager"
+msgstr ""
+
+#: inc/theme-options/features-tab-options.php:10
+msgid "Create Features tab"
+msgstr ""
+
+#: inc/theme-options/features-tab-options.php:17
+msgid "Features tab name"
+msgstr ""
+
+#: inc/theme-options/features-tab-options.php:18
+msgid "Add new features tab."
+msgstr ""
+
+#: inc/theme-options/features-tab-options.php:21
+msgid "Add features tab"
+msgstr ""
+
+#: inc/theme-options/features-tab-options.php:30
+msgid "Delete features tabs"
+msgstr ""
+
+#: inc/theme-options/features-tab-options.php:31
+msgid "Delete the features tabs that you have already created."
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:6
+msgid "Flash Slider Settings"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:11
+msgid "Transitions"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:15
+msgid "Pieces"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:16
+msgid "Number of pieces to which the image is sliced"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:23
+msgid "Time"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:24
+msgid "Time for one cube to turn"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:33
+msgid "Transition"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:34
+msgid "Transition type of the Tweener class"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:40
+msgid "Depth Offset"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:41
+msgid "The offset during transition on the z-axis. Value between 100 and 1000 are recommended."
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:49
+msgid "Cube Distance"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:50
+msgid "The distance between the cubes during transition. Values between 5 and 50 are recommended."
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:61
+msgid "General Configuration"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:65
+msgid "Loader Color"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:66
+msgid "Color of the cubes before the first image appears, also the color of the back sides of the cube, which become visible at some transition types"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:71
+msgid "Inner Side Color"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:72
+msgid "Color of the inner sides of the cube when sliced"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:77
+#: inc/theme-options/sliders-options.php:236
+msgid "Autoplay"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:78
+msgid "Number of seconds from one transition to another, if not stopped. Set to 0 to disable autoplay"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:90
+msgid "Shadow"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:94
+msgid "Side Shadow Alpha"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:95
+#, php-format
+msgid "Sides get darker when moved away from the front. This is the degree of darkness - 0 == no change, 1 == 100% black."
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:103
+msgid "Drop Shadow Alpha"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:104
+msgid "Alpha of the drop shadow - 0 == no shadow, 1 == opaque"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:112
+msgid "Drop Shadow Distance"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:113
+msgid "Distance of the shadow from the bottom of the image"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:120
+msgid "Drop Shadow Scale"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:121
+msgid "As the shadow is blurred, it appears wider that the actual image, when not resized. Thus it's a good idea to make it slightly smaller. - 1 would be no resizing at all."
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:129
+msgid "Drop Shadow Blur X"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:130
+msgid "Blur of the drop shadow on the x-axis"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:137
+msgid "Drop Shadow Blur Y"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:138
+msgid "Blur of the drop shadow on the y-axis"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:149
+msgid "Menu"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:153
+msgid "Menu Distance X"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:154
+msgid "Distance between two menu items (from center to center)."
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:161
+msgid "Menu Distance Y"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:162
+msgid "Distance of the menu from the bottom of the image."
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:169
+msgid "Menu Color Inactive Item"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:170
+msgid "Color of an inactive menu item."
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:175
+msgid "Menu Color Active Item"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:176
+msgid "Color of an active menu item."
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:181
+msgid "Menu Color Inner Circle od Active Item"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:182
+msgid "Color of the inner circle of an active menu item. Should equal the background color of the whole thing."
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:191
+msgid "Controls"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:195
+msgid "Control Size"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:196
+msgid "Size of the controls, which appear on rollover (play, stop, info, link)"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:204
+msgid "Control Distance"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:205
+msgid "Distance between the controls (from the borders)."
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:212
+msgid "Bg Color"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:213
+msgid "Background color of the controls"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:218
+msgid "Font Color"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:219
+msgid "Font color of the controls"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:224
+msgid "Control Alpha"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:225
+msgid "Alpha of a control, when mouse is not over"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:233
+msgid "Control Alpha Hover status"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:234
+msgid "Alpha of a control, when mouse is hover."
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:242
+msgid "Control X"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:243
+msgid "X-position of the point, which aligns the controls (measured from [0,0] of the image)"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:251
+msgid "Control Y"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:252
+msgid "Y-position of the point, which aligns the controls (measured from [0,0] of the image)"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:260
+msgid "Controls Align"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:261
+msgid "Type of alignment from the point [controlsX, controlsY]"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:265
+msgid "center"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:266
+msgid "left"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:267
+msgid "right"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:275
+msgid "Tooltip"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:279
+msgid "Tooltip Height"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:280
+msgid "Height of the tooltip surface in the menu"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:287
+msgid "Tooltip Color"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:288
+msgid "Color of the tooltip surface in the menu"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:293
+msgid "Tooltip Text Y"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:294
+msgid "Y-distance of the tooltip text field from the top of the tooltip"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:301
+msgid "Tooltip Text Color"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:302
+msgid "Color of the tooltip text"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:307
+msgid "Tooltip Margin Left"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:308
+msgid "Margin of the text to the left end of the tooltip"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:315
+msgid "Tooltip Margin Right"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:316
+msgid "Margin of the text to the right end of the tooltip"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:323
+msgid "Tooltip Text Sharpness"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:324
+msgid "Sharpness of the tooltip text (-400 to 400)"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:332
+msgid "Tooltip Text Thickness"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:333
+msgid "Thickness of the tooltip text (-400 to 400)"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:349
+msgid "Info Width"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:350
+msgid "The width of the info text field"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:358
+msgid "Info Background"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:359
+msgid "The background color of the info text field"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:364
+msgid "Info Background Alpha"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:365
+msgid "The alpha of the background of the info text, the image shines through, when smaller than 1"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:373
+msgid "Info Margin"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:374
+msgid "The margin of the text field in the info section to all sides"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:381
+msgid "Info Text Sharpness"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:382
+msgid "Sharpness of the Info text (-400 to 400)"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:390
+msgid "Info Text Thickness"
+msgstr ""
+
+#: inc/theme-options/flashsettings-options.php:391
+msgid "Thickness of the Info text (-400 to 400)"
+msgstr ""
+
+#: inc/theme-options/general-options.php:9
+msgid "General Settings"
+msgstr ""
+
+#: inc/theme-options/general-options.php:12
+#: inc/theme-options/general-options.php:17
+msgid "Activate responsive"
+msgstr ""
+
+#: inc/theme-options/general-options.php:18
+msgid "Select if you want to active or not the responsive"
+msgstr ""
+
+#: inc/theme-options/general-options.php:34
+msgid "Layout theme"
+msgstr ""
+
+#: inc/theme-options/general-options.php:35
+msgid "Select the general layout of the theme."
+msgstr ""
+
+#: inc/theme-options/general-options.php:39
+msgid "Stretched"
+msgstr ""
+
+#: inc/theme-options/general-options.php:40
+msgid "Boxed"
+msgstr ""
+
+#: inc/theme-options/general-options.php:44
+msgid "Custom Favicon"
+msgstr ""
+
+#: inc/theme-options/general-options.php:45
+msgid "A favicon is a 16x16 pixel icon that represents your site; paste the URL to a icon image that you want to use as the image. NOTE: it's not allowed the .ico extension"
+msgstr ""
+
+#: inc/theme-options/general-options.php:50
+msgid "Custom Style"
+msgstr ""
+
+#: inc/theme-options/general-options.php:51
+msgid "You can write here your custom css, that will replace the default css."
+msgstr ""
+
+#: inc/theme-options/general-options.php:73
+msgid "Custom Logo"
+msgstr ""
+
+#: inc/theme-options/general-options.php:74
+msgid "Want to use a custom image as logo?"
+msgstr ""
+
+#: inc/theme-options/general-options.php:79
+msgid "Logo URL"
+msgstr ""
+
+#: inc/theme-options/general-options.php:80
+msgid "Enter the URL to your logo image"
+msgstr ""
+
+#: inc/theme-options/general-options.php:89
+msgid "Logo Description"
+msgstr ""
+
+#: inc/theme-options/general-options.php:90
+msgid "Specify if you want the description below the logo"
+msgstr ""
+
+#: inc/theme-options/general-options.php:95
+msgid "Topbar"
+msgstr ""
+
+#: inc/theme-options/general-options.php:98
+msgid "Show topbar"
+msgstr ""
+
+#: inc/theme-options/general-options.php:99
+msgid "Specify if you want to show the topbar or no"
+msgstr ""
+
+#: inc/theme-options/general-options.php:104
+msgid "Top bar content"
+msgstr ""
+
+#: inc/theme-options/general-options.php:105
+msgid "Choose between static text or twitter slider"
+msgstr ""
+
+#: inc/theme-options/general-options.php:109
+msgid "Static text"
+msgstr ""
+
+#: inc/theme-options/general-options.php:110
+msgid "Last tweets"
+msgstr ""
+
+#: inc/theme-options/general-options.php:114
+msgid "Topbar text"
+msgstr ""
+
+#: inc/theme-options/general-options.php:115
+msgid "Specify the text for the topbar"
+msgstr ""
+
+#: inc/theme-options/general-options.php:124
+msgid "Twitter username"
+msgstr ""
+
+#: inc/theme-options/general-options.php:125
+msgid "Specify twitter username for the last tweets in the topbar"
+msgstr ""
+
+#: inc/theme-options/general-options.php:134
+msgid "Twitter items"
+msgstr ""
+
+#: inc/theme-options/general-options.php:135
+msgid "Specify the number of tweets you want to show"
+msgstr ""
+
+#: inc/theme-options/general-options.php:144
+msgid "Interval between slides"
+msgstr ""
+
+#: inc/theme-options/general-options.php:145
+msgid "Specify the seconds of interval between slides"
+msgstr ""
+
+#: inc/theme-options/general-options.php:156
+msgid "Show login/logout"
+msgstr ""
+
+#: inc/theme-options/general-options.php:157
+msgid "Show login/logout URL from the top bar"
+msgstr ""
+
+#: inc/theme-options/general-options.php:162
+msgid "Login/logout icon"
+msgstr ""
+
+#: inc/theme-options/general-options.php:163
+msgid "Select which icon use for login/logout link."
+msgstr ""
+
+#: inc/theme-options/general-options.php:183
+msgid "Footer Type"
+msgstr ""
+
+#: inc/theme-options/general-options.php:184
+msgid "Select the footer type for the theme"
+msgstr ""
+
+#: inc/theme-options/general-options.php:188
+msgid "Two Columns Footer"
+msgstr ""
+
+#: inc/theme-options/general-options.php:189
+msgid "Centered Footer"
+msgstr ""
+
+#: inc/theme-options/general-options.php:190
+msgid "Big Footer + Two Columns"
+msgstr ""
+
+#: inc/theme-options/general-options.php:191
+msgid "Big Footer + Centered"
+msgstr ""
+
+#: inc/theme-options/general-options.php:195
+msgid "Big Footer Widget Areas"
+msgstr ""
+
+#: inc/theme-options/general-options.php:196
+msgid "Select the number of widget area you'd like to use.<br /><strong>Note: It will work only if you've chosen one of Big Footer types above</strong>"
+msgstr ""
+
+#: inc/theme-options/general-options.php:204
+msgid "Number of widgets in each footer Widget Area"
+msgstr ""
+
+#: inc/theme-options/general-options.php:205
+msgid "Select the number of widget you'd like to use in each footer widget area<br /><strong>Note: It will work only if you've chosen one of Big Footer types above</strong>"
+msgstr ""
+
+#: inc/theme-options/general-options.php:213
+msgid "Footer centered text"
+msgstr ""
+
+#: inc/theme-options/general-options.php:214
+msgid "Enter text used in <strong>centered footer</strong>. It can be HTML."
+msgstr ""
+
+#: inc/theme-options/general-options.php:219
+msgid "Footer copyright text Left"
+msgstr ""
+
+#: inc/theme-options/general-options.php:220
+msgid "Enter text used in the left side of the footer. It can be HTML. <strong>NB: not figured on \"centered footer\"</strong>"
+msgstr ""
+
+#: inc/theme-options/general-options.php:225
+msgid "Footer copyright text Right"
+msgstr ""
+
+#: inc/theme-options/general-options.php:226
+msgid "Enter text used in the right side of the footer. It can be HTML. <strong>NB: not figured on \"centered footer\"</strong>"
+msgstr ""
+
+#: inc/theme-options/general-options.php:231
+msgid "Google Analytics Code"
+msgstr ""
+
+#: inc/theme-options/general-options.php:232
+msgid "You can paste your Google Analytics or other tracking code in this box. This will be automatically added to the footer."
+msgstr ""
+
+#: inc/theme-options/general-options.php:243
+msgid "404 Error settings"
+msgstr ""
+
+#: inc/theme-options/general-options.php:247
+msgid "The page 404 Error is the page shown if a user request a page that doesn' exists."
+msgstr ""
+
+#: inc/theme-options/general-options.php:250
+msgid "Sidebar position"
+msgstr ""
+
+#: inc/theme-options/general-options.php:251
+msgid "Choose the position of the sidebar. <br />The sidebar used is: <b>404 Error Sidebar</b>"
+msgstr ""
+
+#: inc/theme-options/general-options.php:254
+msgid "No sidebar"
+msgstr ""
+
+#: inc/theme-options/general-options.php:257
+msgid "Custom 404 Error page"
+msgstr ""
+
+#: inc/theme-options/general-options.php:258
+msgid "Activate/Deactivate the custom 404 Error page."
+msgstr ""
+
+#: inc/theme-options/general-options.php:263
+msgid "Custom image"
+msgstr ""
+
+#: inc/theme-options/general-options.php:264
+msgid "Upload your own 404 Error image."
+msgstr ""
+
+#: inc/theme-options/general-options.php:272
+msgid "Custom text"
+msgstr ""
+
+#: inc/theme-options/general-options.php:273
+msgid "Insert your custom text. HTML allowed."
+msgstr ""
+
+#: inc/theme-options/general-options.php:279
+msgid "404 ERROR"
+msgstr ""
+
+#: inc/theme-options/general-options.php:282
+msgid "Choose the position of the image."
+msgstr ""
+
+#: inc/theme-options/general-options.php:288
+msgid "Above text"
+msgstr ""
+
+#: inc/theme-options/general-options.php:288
+msgid "Below text"
+msgstr ""
+
+#: inc/theme-options/general-options.php:297
+msgid "Newsletter form"
+msgstr ""
+
+#: inc/theme-options/general-options.php:301
+msgid "Show"
+msgstr ""
+
+#: inc/theme-options/general-options.php:302
+msgid "Select if you want to show the newsletter form, above the footer."
+msgstr ""
+
+#: inc/theme-options/general-options.php:308
+msgid "The title of this section, shown bolded."
+msgstr ""
+
+#: inc/theme-options/general-options.php:314
+msgid "A description of this section, shown near the title."
+msgstr ""
+
+#: inc/theme-options/general-options.php:319
+msgid "Technical information"
+msgstr ""
+
+#: inc/theme-options/general-options.php:320
+msgid "The options below are for the configuration of the newsletter form. to make functional the form, you need to link it with an external services and you can do it configurating it with the options below."
+msgstr ""
+
+#: inc/theme-options/general-options.php:323
+msgid "Action"
+msgstr ""
+
+#: inc/theme-options/general-options.php:324
+msgid "The page where make the request (&lt;form <strong>action=\"\"</strong>&gt;)."
+msgstr ""
+
+#: inc/theme-options/general-options.php:329
+msgid "Method of request"
+msgstr ""
+
+#: inc/theme-options/general-options.php:330
+msgid "The method of the form request (&lt;form <strong>method=\"POST|GET\"</strong>&gt;)."
+msgstr ""
+
+#: inc/theme-options/general-options.php:339
+msgid "Identification name of the \"Name\" field"
+msgstr ""
+
+#: inc/theme-options/general-options.php:340
+msgid "Configure the identification name of the \"Name\" field, to allow the script to comunicate the value of this field to the external services (&lt;input <strong>name=\"\"</strong>... /&gt;)."
+msgstr ""
+
+#: inc/theme-options/general-options.php:345
+msgid "Identification name of the \"Email\" field"
+msgstr ""
+
+#: inc/theme-options/general-options.php:346
+msgid "Configure the identification name of the \"Email\" field, to allow the script to comunicate the value of this field to the external services (&lt;input <strong>name=\"\"</strong>... /&gt;)."
+msgstr ""
+
+#: inc/theme-options/general-options.php:351
+msgid "Label of \"Name\" field"
+msgstr ""
+
+#: inc/theme-options/general-options.php:352
+msgid "The label of the \"Name\" field."
+msgstr ""
+
+#: inc/theme-options/general-options.php:355
+msgid "Your name"
+msgstr ""
+
+#: inc/theme-options/general-options.php:357
+msgid "Label of \"Email\" field"
+msgstr ""
+
+#: inc/theme-options/general-options.php:358
+msgid "The label of the \"Email\" field."
+msgstr ""
+
+#: inc/theme-options/general-options.php:361
+msgid "Your email"
+msgstr ""
+
+#: inc/theme-options/general-options.php:363
+msgid "Label of \"Submit\" button"
+msgstr ""
+
+#: inc/theme-options/general-options.php:364
+msgid "The label of the \"Submit\" button."
+msgstr ""
+
+#: inc/theme-options/general-options.php:369
+msgid "Hidden fields"
+msgstr ""
+
+#: inc/theme-options/general-options.php:370
+msgid "Optional: In this option you can set the hidden fields, to write in serializate way (es. field1=value1&field2=value2&field3=value3&...&fieldN=valueN)."
+msgstr ""
+
+#: inc/theme-options/home-options.php:11
+msgid "Composer"
+msgstr ""
+
+#: inc/theme-options/home-options.php:64
+msgid "Testimonials Slider"
+msgstr ""
+
+#: inc/theme-options/home-options.php:68
+msgid "Title Testimonials section"
+msgstr ""
+
+#: inc/theme-options/home-options.php:69
+msgid "Define the title for the testimonials section."
+msgstr ""
+
+#: inc/theme-options/home-options.php:72
+msgid "People [love Memènto]"
+msgstr ""
+
+#: inc/theme-options/home-options.php:74
+msgid "Title icon"
+msgstr ""
+
+#: inc/theme-options/home-options.php:75
+msgid "Define the icon for the title in the testimonials section."
+msgstr ""
+
+#: inc/theme-options/home-options.php:83
+msgid "Description Testimonials section"
+msgstr ""
+
+#: inc/theme-options/home-options.php:84
+msgid "Define the description for the testimonials section, shown below the title."
+msgstr ""
+
+#: inc/theme-options/home-options.php:87
+msgid "feedback from our customers"
+msgstr ""
+
+#: inc/theme-options/home-options.php:89
+msgid "Speed testimonials slider (s)"
+msgstr ""
+
+#: inc/theme-options/home-options.php:90
+msgid "Define the speed for the transation of testimonials."
+msgstr ""
+
+#: inc/theme-options/home-options.php:98
+msgid "Timeout testimonials slider (s)"
+msgstr ""
+
+#: inc/theme-options/home-options.php:99
+msgid "Define the intervall between the slides."
+msgstr ""
+
+#: inc/theme-options/home-options.php:118
+#: inc/theme-options/home-options.php:193
+#: inc/theme-options/home-options.php:240
+#: inc/theme-options/home-options.php:271
+msgid "Section title"
+msgstr ""
+
+#: inc/theme-options/home-options.php:119
+#: inc/theme-options/home-options.php:194
+msgid "Define the title showed."
+msgstr ""
+
+#: inc/theme-options/home-options.php:122
+msgid "Latest Articles"
+msgstr ""
+
+#: inc/theme-options/home-options.php:124
+#: inc/theme-options/home-options.php:199
+#: inc/theme-options/home-options.php:246
+#: inc/theme-options/home-options.php:284
+msgid "Items (home page)"
+msgstr ""
+
+#: inc/theme-options/home-options.php:125
+#: inc/theme-options/home-options.php:200
+#: inc/theme-options/home-options.php:247
+#: inc/theme-options/home-options.php:285
+msgid "Select how many items you want to show in home page template."
+msgstr ""
+
+#: inc/theme-options/home-options.php:132
+#: inc/theme-options/home-options.php:207
+#: inc/theme-options/home-options.php:292
+msgid "Show thumbnail in home page"
+msgstr ""
+
+#: inc/theme-options/home-options.php:133
+#: inc/theme-options/home-options.php:208
+#: inc/theme-options/home-options.php:293
+msgid "Select if you want to show the thumbnail in  the section of home page template."
+msgstr ""
+
+#: inc/theme-options/home-options.php:138
+msgid "Thumbnail link"
+msgstr ""
+
+#: inc/theme-options/home-options.php:139
+msgid "Select if you want the thumbnail to link to the post."
+msgstr ""
+
+#: inc/theme-options/home-options.php:148
+#: inc/theme-options/sections-options.php:181
+msgid "Show post date"
+msgstr ""
+
+#: inc/theme-options/home-options.php:149
+#: inc/theme-options/sections-options.php:182
+msgid "Select if you want to show the date for each post."
+msgstr ""
+
+#: inc/theme-options/home-options.php:154
+#: inc/theme-options/sections-options.php:187
+msgid "Post date icon"
+msgstr ""
+
+#: inc/theme-options/home-options.php:155
+#: inc/theme-options/sections-options.php:188
+msgid "Select which icon use for post date."
+msgstr ""
+
+#: inc/theme-options/home-options.php:166
+#: inc/theme-options/home-options.php:213
+#: inc/theme-options/home-options.php:321
+#: inc/theme-options/sections-options.php:249
+msgid "Show read more button"
+msgstr ""
+
+#: inc/theme-options/home-options.php:167
+#: inc/theme-options/home-options.php:214
+#: inc/theme-options/home-options.php:322
+#: inc/theme-options/sections-options.php:250
+msgid "Select if you want to show the read more button below the post."
+msgstr ""
+
+#: inc/theme-options/home-options.php:172
+#: inc/theme-options/home-options.php:219
+#: inc/theme-options/home-options.php:327
+#: inc/theme-options/sections-options.php:255
+msgid "Read more text"
+msgstr ""
+
+#: inc/theme-options/home-options.php:173
+msgid "Write what you want to show on more link. You can use the shortcode [button]. <strong>Do not use</strong> double quotes for attributes. <strong>Do not use</strong> class and href attributes."
+msgstr ""
+
+#: inc/theme-options/home-options.php:197
+msgid "Our [services]"
+msgstr ""
+
+#: inc/theme-options/home-options.php:220
+#: inc/theme-options/home-options.php:328
+msgid "Write what you want to show on more link"
+msgstr ""
+
+#: inc/theme-options/home-options.php:241
+#: inc/theme-options/home-options.php:272
+msgid "Define the title shown."
+msgstr ""
+
+#: inc/theme-options/home-options.php:244
+msgid "Photogallery"
+msgstr ""
+
+#: inc/theme-options/home-options.php:254
+msgid "Show icon details"
+msgstr ""
+
+#: inc/theme-options/home-options.php:255
+msgid "Select if you want to show the iconto go to the page details, when the mouse overs the image."
+msgstr ""
+
+#: inc/theme-options/home-options.php:275
+msgid "Mèmento [projects]"
+msgstr ""
+
+#: inc/theme-options/home-options.php:277
+msgid "Portfolio to use"
+msgstr ""
+
+#: inc/theme-options/home-options.php:278
+msgid "Define the portfolio where get the posts."
+msgstr ""
+
+#: inc/theme-options/home-options.php:298
+#: inc/theme-options/sections-options.php:81
+msgid "Thumbnail click"
+msgstr ""
+
+#: inc/theme-options/home-options.php:299
+#: inc/theme-options/sections-options.php:82
+msgid "Select what you want to do when you click in the item thumbnail (not valid for the portfolio filterable)."
+msgstr ""
+
+#: inc/theme-options/home-options.php:303
+#: inc/theme-options/sections-options.php:86
+msgid "Open full image in a lightbox"
+msgstr ""
+
+#: inc/theme-options/home-options.php:304
+#: inc/theme-options/sections-options.php:87
+msgid "Go to item single page"
+msgstr ""
+
+#: inc/theme-options/home-options.php:305
+#: inc/theme-options/sections-options.php:88
+msgid "Don't do nothing"
+msgstr ""
+
+#: inc/theme-options/home-options.php:309
+msgid "Show title"
+msgstr ""
+
+#: inc/theme-options/home-options.php:310
+msgid "Select if you want to show the title of the portfolio item"
+msgstr ""
+
+#: inc/theme-options/home-options.php:315
+msgid "Show description"
+msgstr ""
+
+#: inc/theme-options/home-options.php:316
+msgid "Select if you want to show the description of the portfolio item"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:15
+msgid "Testimonials page"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:20
+msgid "Link to testimonial detail page"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:21
+msgid "Say if you want that the testimonial links, link to the testimonial detail page."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:26
+msgid "Testimonial text type"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:27
+msgid "Select what kind of content you want to show."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:31
+msgid "Complete content"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:33
+msgid "Limit of..."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:37
+msgid "Limit words"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:38
+msgid "Select how many words to show."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:59
+msgid "portfolio"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:64
+msgid "Default layout page"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:65
+msgid "Define the default layout to use for the portfolio pages, as single pages, categories page, etc.."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:69
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:70
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:71
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:75
+#: inc/theme-options/sections-options.php:135
+msgid "Show filters"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:76
+#: inc/theme-options/sections-options.php:136
+msgid "Say if you want to show the filters navigation in the gallery page."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:92
+msgid "Link to single page in Portfolio Filterable"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:93
+msgid "Select if you want to show the icon to go to the item single page, when you pass over the thumbnail in the portfolio filterable."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:98
+msgid "Lightbox Skin"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:99
+msgid "Specific what skin you want for videos and images lightbox."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:126
+msgid "Select the layout to show the gallery items."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:130
+msgid "Responsive"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:145
+msgid "Link to item single page"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:146
+msgid "Select if you want to show the icon to go to the item single page, when you pass over the thumbnail."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:162
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:166
+msgid "Blog Type"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:167
+msgid "Say the layout for your blog page."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:170
+msgid "Big Thumbnail"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:170
+msgid "Small Thumbnail"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:170
+msgid "Meménto style"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:170
+msgid "No image"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:173
+msgid "Exclude categories"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:174
+msgid "Select witch categories you want exlude from blog."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:178
+msgid "Blog Page"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:178
+msgid "List cat. sidebar"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:198
+msgid "Show post categories"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:199
+msgid "Select if you want to show the categories for each post."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:204
+msgid "Post categories icon"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:205
+msgid "Select which icon use for post categories."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:215
+msgid "Show post author"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:216
+msgid "Select if you want to show the author for each post."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:221
+msgid "Post author icon"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:222
+msgid "Select which icon use for post author."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:232
+msgid "Show post number of comments"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:233
+msgid "Select if you want to show the number of comments for each post."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:238
+msgid "Post comments icon"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:239
+msgid "Select which icon use for post comments."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:256
+msgid "Write what you want to show on more link."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:261
+msgid "Show \"About the author\""
+msgstr ""
+
+#: inc/theme-options/sections-options.php:262
+msgid "Show the section \"About the author\"."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:267
+msgid "Show author description"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:268
+msgid "Show the author description."
+msgstr ""
+
+#: inc/theme-options/sections-options.php:277
+msgid "Show author socials"
+msgstr ""
+
+#: inc/theme-options/sections-options.php:278
+msgid "Show the author socials."
+msgstr ""
+
+#: inc/theme-options/sidebars-options.php:7
+msgid "Sidebar Manager"
+msgstr ""
+
+#: inc/theme-options/sidebars-options.php:10
+msgid "Create Sidebar"
+msgstr ""
+
+#: inc/theme-options/sidebars-options.php:15
+msgid "Sidebar name"
+msgstr ""
+
+#: inc/theme-options/sidebars-options.php:16
+msgid "Add a new sidebar.<br/><b>NB:</b> by default, there are 1 sidebar have already created: <br />- \"<strong>Blog Sidebar</strong>\", for Blog Template; <br />- \"<strong>Home Colourful Section</strong>\"; <br />- \"<strong>Home Sidebar</strong>\"; <br />- \"<strong>Footer Row 1/2/3</strong>\", for Footer."
+msgstr ""
+
+#: inc/theme-options/sidebars-options.php:29
+msgid "Sidebar created"
+msgstr ""
+
+#: inc/theme-options/sidebars-options.php:36
+msgid "List sidebar created"
+msgstr ""
+
+#: inc/theme-options/sidebars-options.php:37
+msgid "Table with sidebar that you have created."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:31
+msgid "Sliders Manager"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:36
+msgid "Select slider to show or configure"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:41
+msgid "Default Header image type"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:42
+msgid "Select the default header type for homepage pages."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:42
+#, php-format
+msgid "for \"Fixed Image\", you can configure it on %s -> %s."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:42
+msgid "Appearance"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:48
+msgid "Configure slider."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:50
+msgid "Choose a slider and save, to configure below your slider choosen."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:56
+msgid "Responsive Behavior"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:58
+msgid "Say what you want to do when the website is loaded by lower resolution screen."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:58
+msgid "The option \"Leave the slider\" is available only for \"elastic\" slider, because is the only one that has a correct responsive behavior. If you use another slider type, the slider will be hidden in lower resolutions."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:61
+msgid "Leave the slider"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:62
+msgid "Remove the slider"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:63
+msgid "Replace with \"Fixed Image\""
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:71
+#: inc/theme-options/sliders-options.php:83
+#: inc/theme-options/sliders-options.php:144
+#: inc/theme-options/sliders-options.php:195
+#: inc/theme-options/sliders-options.php:214
+#: inc/theme-options/sliders-options.php:226
+#: inc/theme-options/sliders-options.php:274
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:75
+msgid "Settings flash slider"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:76
+msgid "To configure the flash slider settings, go to the \"Flash slider\" tab."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:87
+#: inc/theme-options/sliders-options.php:148
+#: inc/theme-options/sliders-options.php:278
+msgid "Effect"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:88
+#: inc/theme-options/sliders-options.php:149
+#: inc/theme-options/sliders-options.php:279
+msgid "Select the effect you want for slides transiction."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:94
+msgid "Easing"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:95
+msgid "Select the easing for effect transition."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:101
+#: inc/theme-options/sliders-options.php:155
+#: inc/theme-options/sliders-options.php:252
+#: inc/theme-options/sliders-options.php:289
+msgid "Speed (s)"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:102
+#: inc/theme-options/sliders-options.php:156
+#: inc/theme-options/sliders-options.php:253
+#: inc/theme-options/sliders-options.php:290
+msgid "Select the speed of transiction between slides, expressed in seconds."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:110
+#: inc/theme-options/sliders-options.php:164
+#: inc/theme-options/sliders-options.php:261
+#: inc/theme-options/sliders-options.php:298
+msgid "Timeout (s)"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:111
+#: inc/theme-options/sliders-options.php:165
+#: inc/theme-options/sliders-options.php:262
+#: inc/theme-options/sliders-options.php:299
+msgid "Select the delay between slides, expressed in seconds."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:119
+msgid "Caption position"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:120
+msgid "Select the position of caption."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:131
+msgid "Caption Speed (s)"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:132
+msgid "Select the speed of caption appearance."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:173
+msgid "Next & Prev navigation"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:174
+msgid "Choose if you want to show Next & Prev arrows"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:179
+msgid "Next & Prev navigation only on hover"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:180
+msgid "Choose if you want to show Next & Prev arrows only on hover"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:185
+msgid "Enable Bullets"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:186
+msgid "Choose if you want to show bullets navigation below the slider"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:200
+msgid "Select the slider"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:201
+msgid "Select the slider you want to show in home page."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:207
+#, php-format
+msgid "You can set this slider in <a href=\"%s\">this page</a> and configure it, adding your slides in that page. Then, select above the slider that you can want to show in the homepage."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:219
+#, php-format
+msgid "You can set a static image in <a href=\"%s\">Appareance -> Header</a>."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:230
+msgid "Height of slider"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:231
+msgid "Select the height of the slider, in base of the images that you want to add."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:237
+msgid "Select if you want that the slider change the slide automatically."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:242
+msgid "Animation"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:243
+msgid "Animation types -> \"sides\" : new slides will slide in from left / right; \"center\": new slides will appear in the center."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:247
+msgid "Sides"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:311
+msgid "Slides"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:14
+msgid "Top bar font"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:15
+msgid "Select the type to use for the top bar font. (Default Droid Sans)"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:22
+msgid "Logo font"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:23
+msgid "Select the type to use for the logo font. (Default Arial)"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:30
+msgid "Logo font highlight"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:31
+msgid "Select the type to use for the logo font highlight. (Default Arial)"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:38
+msgid "Logo description font"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:39
+msgid "Select the type to use for the description below the logo. (Default Arial)."
+msgstr ""
+
+#: inc/theme-options/typography-options.php:46
+msgid "Navigation font"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:47
+msgid "Select the type to use for the navigation font. (Default Arial)"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:54
+msgid "Paragraphs font"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:55
+msgid "Select the type to use for the paragraphs. (Default Droid Sans)."
+msgstr ""
+
+#: inc/theme-options/typography-options.php:62
+msgid "Heading 1 font"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:63
+msgid "Select the type to use for Heading 1 items. (Default Arial)."
+msgstr ""
+
+#: inc/theme-options/typography-options.php:70
+msgid "Heading 2 font"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:71
+msgid "Select the type to use for Heading 2 items. (Default Arial)."
+msgstr ""
+
+#: inc/theme-options/typography-options.php:78
+msgid "Heading 3 font"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:79
+msgid "Select the type to use for Heading 3 items. (Default Arial)."
+msgstr ""
+
+#: inc/theme-options/typography-options.php:86
+msgid "Heading 4 font"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:87
+msgid "Select the type to use for Heading 4 items. (Default Arial)."
+msgstr ""
+
+#: inc/theme-options/typography-options.php:94
+msgid "Heading 5 font"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:95
+msgid "Select the type to use for Heading 5 items. (Default Arial)."
+msgstr ""
+
+#: inc/theme-options/typography-options.php:102
+msgid "Heading 6 font"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:103
+msgid "Select the type to use for Heading 6 items. (Default Arial)."
+msgstr ""
+
+#: inc/theme-options/typography-options.php:110
+msgid "Slogan font"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:111
+msgid "Select the type to use for Slogans. (Default Arial)."
+msgstr ""
+
+#: inc/theme-options/typography-options.php:118
+msgid "Sidebar & Footer titles"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:119
+msgid "Select the type to use for titles in sidebar and footer. (Default Arial)"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:126
+msgid "Testimonial name"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:127
+msgid "Select the type to use for name of testimonial, in the [testimonials] shortcode. (Default Shadows Into Light)"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:134
+msgid "Special Font"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:135
+msgid "Select the type to use for the text inside the shortcode [special_font]. (Default Shadows Into Light)"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:142
+msgid "Blog meta font"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:143
+msgid "Select the type to use for the text of the blog meta. (Default Droid Sans)"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:150
+msgid "Blog Meménto style date font"
+msgstr ""
+
+#: inc/theme-options/typography-options.php:151
+msgid "Select the type to use for the text of the blog Meménto style date. (Default Arial)"
+msgstr ""
+
+#: inc/widgets/contact_info.php:8
+msgid "Widget with a simple contact information."
+msgstr ""
+
+#: inc/widgets/contact_info.php:13
+msgid "Contact Info"
+msgstr ""
+
+#: inc/widgets/contact_info.php:22
+msgid "Contacts"
+msgstr ""
+
+#: inc/widgets/contact_info.php:38
+msgid "Address"
+msgstr ""
+
+#: inc/widgets/contact_info.php:44
+#: inc/widgets/contact_info.php:71
+msgid "Phone"
+msgstr ""
+
+#: inc/widgets/contact_info.php:50
+#: inc/widgets/contact_info.php:72
+msgid "Fax"
+msgstr ""
+
+#: inc/widgets/footer_recent_posts.php:9
+msgid "The latest posts, with a preview thumb. (Use it only in the footer!)"
+msgstr ""
+
+#: inc/widgets/footer_recent_posts.php:68
+msgid "// read more >"
+msgstr ""
+
+#: inc/widgets/footer_recent_posts.php:102
+msgid "Show Post Date"
+msgstr ""
+
+#: inc/widgets/gallery_categories.php:8
+msgid "Get list of gallery categories, created on portfolio custom type."
+msgstr ""
+
+#: inc/widgets/gallery_categories.php:29
+msgid "Show a list of gallery categories, for gallery custom types."
+msgstr ""
+
+#: inc/widgets/icon_text.php:8
+msgid "Arbitrary text or HTML, with a simple icon near title."
+msgstr ""
+
+#: inc/widgets/more_projects.php:9
+msgid "Show a slider with a list of projects, added into portfolio Post Type."
+msgstr ""
+
+#: inc/widgets/portfolio_categories.php:15
+msgid "Get list of portfolio categories, created on portfolio custom type."
+msgstr ""
+
+#: inc/widgets/portfolio_categories.php:89
+msgid "Show a list of portfolio categories, for portfolio custom types."
+msgstr ""
+
+#: inc/widgets/quick_contact.php:9
+msgid "Quick contact form. NB: you must use this widget on the footer only."
+msgstr ""
+
+#: inc/widgets/quick_contact.php:68
+msgid "This widget will be showed in two columns, so we raccomend to not add other widgets after this."
+msgstr ""
+
+#: inc/widgets/quick_contact.php:72
+msgid "Select here the form that you have created and configurated on Theme Options panel."
+msgstr ""
+
+#: inc/widgets/recent_comments.php:10
+msgid "The most recent comments."
+msgstr ""
+
+#: inc/widgets/recent_comments.php:16
+#: inc/widgets/recent_comments.php:24
+msgid "Recent Comments"
+msgstr ""
+
+#: inc/widgets/recent_comments.php:39
+msgid "Number of comments to show:"
+msgstr ""
+
+#: inc/widgets/recent_comments.php:42
+msgid "Show avatar:"
+msgstr ""
+
+#: inc/widgets/recent_comments.php:49
+msgid "Show author:"
+msgstr ""
+
+#: inc/widgets/recent_comments.php:56
+msgid "Show comment text:"
+msgstr ""
+
+#: inc/widgets/recent_comments.php:63
+msgid "Comments text length:"
+msgstr ""
+
+#: inc/widgets/testimonials.php:9
+msgid "Add a slider testimonial on your widget which link a category to show the contents."
+msgstr ""
+
